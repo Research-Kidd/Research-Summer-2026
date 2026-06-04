@@ -7,6 +7,10 @@
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
 
+#include "PMPhysicsList.hh"
+#include "PMDetectorConstruction.hh"
+#include "PMActionInitialization.hh"
+
 int main(int argc, char** argv)
 {
     G4UIExecutive *ui = new G4UIExecutive(argc, argv); // hands over command line control
@@ -18,12 +22,22 @@ int main(int argc, char** argv)
         G4RunManager *runManager = new G4RunManager;
     #endif
 
+    // Physics list
+    runManager->SetUserInitialization(new PMPhysicsList());
+
+    // Detector Construction
+    runManager->SetUserInitialization(new PMDetectorConstruction());
+
+    // Action Initialization
+    runManager->SetUserInitialization(new PMActionInitialization());
+
     // Initialise visualization control manager
     G4VisManager *visManager = new G4VisExecutive;
     visManager->Initialise();
 
     // UI manager
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
+    UImanager->ApplyCommand("/control/execute vis.mac");
 
     ui->SessionStart();
 

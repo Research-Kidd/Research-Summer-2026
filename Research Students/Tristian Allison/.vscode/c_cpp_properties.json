@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/tristanallison/Software/Geant4/geant4-v11.4.1-install/include/Geant4"
+                "/home/tristanallison/Software/Geant4/geant4-v11.4.1-install/include/Geant4",
+                "${workspaceFolder}/Code/Tutorials/G4-1/include"
             ],
             "defines": [],
             "cStandard": "c17",
