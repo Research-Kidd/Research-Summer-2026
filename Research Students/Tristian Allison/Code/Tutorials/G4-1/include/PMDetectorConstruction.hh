@@ -4,6 +4,7 @@
 #include "G4VUserDetectorConstruction.hh" // main class for detector construction
 
 #include "G4Box.hh"
+#include "G4Sphere.hh"
 
 // volume libraries
 #include "G4LogicalVolume.hh"
