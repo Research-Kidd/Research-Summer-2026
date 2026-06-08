@@ -13,7 +13,7 @@
 
 int main(int argc, char** argv)
 {
-    G4UIExecutive *ui; // hands over command line control
+    G4UIExecutive *ui = nullptr; // hands over command line control
 
     // make runManager based on whether built multithreaded or not
     #ifdef G4MULTITHREADED
