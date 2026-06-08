@@ -13,7 +13,7 @@
 
 int main(int argc, char** argv)
 {
-    G4UIExecutive *ui = new G4UIExecutive(argc, argv); // hands over command line control
+    G4UIExecutive *ui; // hands over command line control
 
     // make runManager based on whether built multithreaded or not
     #ifdef G4MULTITHREADED
@@ -31,15 +31,30 @@ int main(int argc, char** argv)
     // Action Initialization
     runManager->SetUserInitialization(new PMActionInitialization());
 
+    if (argc == 1) 
+    {
+        ui = new G4UIExecutive(argc, argv);
+    }
+
+
     // Initialise visualization control manager
     G4VisManager *visManager = new G4VisExecutive;
     visManager->Initialise();
 
     // UI manager
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
-    UImanager->ApplyCommand("/control/execute vis.mac");
 
-    ui->SessionStart();
+    if (ui)
+    {
+        UImanager->ApplyCommand("/control/execute vis.mac");
+        ui->SessionStart();    
+    }
+    else
+    {
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+        UImanager->ApplyCommand(command + fileName);
+    }
 
     return 0;
 }
