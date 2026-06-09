@@ -1,3 +1,10 @@
+/*
+    Title           :
+    Author          :   Tristan Allison
+    Date Created    :   June 8, 2026
+    Date Edited     :   June 9, 2026
+    Purpose         :
+*/
 #include <iostream>
 
 #include "G4RunManager.hh"
