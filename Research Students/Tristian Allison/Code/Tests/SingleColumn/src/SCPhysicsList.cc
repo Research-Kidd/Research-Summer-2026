@@ -11,6 +11,9 @@ SCPhysicsList::SCPhysicsList()
 {
     // EM Physics
     RegisterPhysics(new G4EmStandardPhysics());
+    
+    // Optical Physics
+    RegisterPhysics(new G4OpticalPhysics());
 }
 
 SCPhysicsList::~SCPhysicsList()

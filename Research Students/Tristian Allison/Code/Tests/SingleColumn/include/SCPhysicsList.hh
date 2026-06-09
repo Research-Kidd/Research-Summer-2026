@@ -12,6 +12,8 @@
 #include "G4EmStandardPhysics.hh" // imports electromagnetism physics list
 #include "G4RadioactiveDecayPhysics.hh"
 #include "G4DecayPhysics.hh"
+#include "G4Scintillation.hh"
+#include "G4OpticalPhysics.hh"
 
 // class inherits from G4VModular Physics List
 class SCPhysicsList : public G4VModularPhysicsList

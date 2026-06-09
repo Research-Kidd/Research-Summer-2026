@@ -39,9 +39,17 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
         virtual G4VPhysicalVolume *Construct();
 
     private:
-        G4LogicalVolume *logicDetector;
+        G4LogicalVolume *logicDetector, *logicWorld, *logicColumn;
+        G4VPhysicalVolume *physWorld, *physColumn;
+        G4Box *solidWorld;
+        G4Tubs *solidColumn;
+        G4NistManager *nist;
+
+        G4bool checkOverlaps = true; // make sure volumes do not overlap
 
         virtual void ConstructSDandField();
+
+        void ConstructScintillator();
 };
 
 
