@@ -32,7 +32,7 @@ void SCDetectorConstruction::ConstructScintillator()
     G4MaterialPropertiesTable *mptColumn = new G4MaterialPropertiesTable();
     mptColumn->AddProperty("RINDEX", energy, rindexCsI, 3);
     mptColumn->AddProperty("SCINTILLATIONCOMPONENT1", energy, fraction, 3, true);
-    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 52.0/keV);
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD", .1/keV);
     mptColumn->AddConstProperty("RESOLUTIONSCALE", 1.);
     mptColumn->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1080. * ns);
     mptColumn->AddConstProperty("SCINTILLATIONYIELD1", 1.);
@@ -62,7 +62,9 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
     G4MaterialPropertiesTable *mptWorld = new G4MaterialPropertiesTable();
     G4double worldRindex[2] = {1.0, 1.0};
     G4double worldEnergy[2] = {1.0*eV, 6.0*eV};
+    G4double worldAbs[2] = {1.0 * mm, 1.0 * mm};
     mptWorld->AddProperty("RINDEX", worldEnergy, worldRindex, 2);
+    mptWorld->AddProperty("ABSLENGTH", worldEnergy, worldAbs, 2);
     worldMat->SetMaterialPropertiesTable(mptWorld);
 
     // world

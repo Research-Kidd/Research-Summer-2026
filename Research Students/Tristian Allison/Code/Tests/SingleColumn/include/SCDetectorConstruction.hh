@@ -5,8 +5,8 @@
     Date Edited     :   June 9, 2026
     Purpose         :
 */
-#ifndef PMDETECTORCONSTRUCTION_HH
-#define PMDETECTORCONSTRUCTION_HH
+#ifndef SCDETECTORCONSTRUCTION_HH
+#define SCDETECTORCONSTRUCTION_HH
 
 #include "G4VUserDetectorConstruction.hh" // main class for detector construction
 
