@@ -20,8 +20,23 @@ SCDetectorConstruction::~SCDetectorConstruction()
 
 void SCDetectorConstruction::ConstructScintillator()
 {
+    // TODO: fix these with correct energy emission spectrum when found
+    G4double energy[3] = {1.239841939*eV/0.9, 1.239841939*eV/0.55, 1.239841939*eV/0.2};
+    G4double rindexCsI[3] = {1.7481, 1.7481, 1.7481};
+    G4double fraction[3] = {.3, 1.0, 0.2};
+    
     // Material
     G4Material *columnMat = nist->FindOrBuildMaterial("G4_CESIUM_IODIDE");
+
+    // Material property table for CsI scintillator
+    G4MaterialPropertiesTable *mptColumn = new G4MaterialPropertiesTable();
+    mptColumn->AddProperty("RINDEX", energy, rindexCsI, 3);
+    mptColumn->AddProperty("SCINTILLATIONCOMPONENT1", energy, fraction, 3, true);
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 52.0/keV);
+    mptColumn->AddConstProperty("RESOLUTIONSCALE", 1.);
+    mptColumn->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1080. * ns);
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD1", 1.);
+    columnMat->SetMaterialPropertiesTable(mptColumn);
 
     // Column Scintillator
     G4double columnRadius = 5. * micrometer;
@@ -42,6 +57,13 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
 
     // Manipulate materials of the volume
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
+    
+    // Material property table for world
+    G4MaterialPropertiesTable *mptWorld = new G4MaterialPropertiesTable();
+    G4double worldRindex[2] = {1.0, 1.0};
+    G4double worldEnergy[2] = {1.0*eV, 6.0*eV};
+    mptWorld->AddProperty("RINDEX", worldEnergy, worldRindex, 2);
+    worldMat->SetMaterialPropertiesTable(mptWorld);
 
     // world
     G4double xWorld = 1. * mm;
