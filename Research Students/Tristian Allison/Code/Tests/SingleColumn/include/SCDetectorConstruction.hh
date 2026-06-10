@@ -23,6 +23,7 @@
 #include "G4NistManager.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
+#include "G4PhysicalConstants.hh"
 
 #include "G4VisAttributes.hh"
 #include "G4Color.hh"
@@ -39,13 +40,13 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
         virtual G4VPhysicalVolume *Construct();
 
     private:
-        G4LogicalVolume *logicDetector, *logicWorld, *logicColumn;
+        G4LogicalVolume /**logicDetector,*/ *logicWorld, *logicColumn;
         G4VPhysicalVolume *physWorld, *physColumn;
         G4Box *solidWorld;
         G4Tubs *solidColumn;
         G4NistManager *nist;
 
-        G4bool checkOverlaps = true; // make sure volumes do not overlap
+        G4bool checkOverlaps; // make sure volumes do not overlap
 
         virtual void ConstructSDandField();
 
