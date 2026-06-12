@@ -27,9 +27,9 @@ void SCDetectorConstruction::ConstructScintillator()
 
     // TODO: fix these with correct energy emission spectrum when found
     G4double energy[size], rindexCsI[size], absCsI[size];
-    G4double fraction[size] = {0.05, 0.1, 0.3, 0.7, 1.0, 0.7, 0.4, 0.15};
-    
-    G4double sum;
+    G4double fraction[size] = {0.15, 0.4, 0.7, 1.0, 0.7, 0.3, 0.1, 0.05};
+
+    G4double sum = 0.;
     for (int i = 0; i < size; i++)
         sum += fraction[i];
 
@@ -64,6 +64,21 @@ void SCDetectorConstruction::ConstructScintillator()
     logicColumn = new G4LogicalVolume(solidColumn, columnMat, "logicColumn");
     physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
 
+    /* for making array of columns
+    G4int length = 25, width = 25;
+    G4double pitch = 10.*um;
+
+    for (int i = -width; i < width; i++) 
+    {
+        G4double x = i * pitch;
+        for (int j = -length; j < length; j++)
+        {
+            G4double y = j * pitch;
+            new G4PVPlacement(nullptr, G4ThreeVector(x, y, 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
+        }
+    }
+    */
+
     G4VisAttributes *columnVisAtt = new G4VisAttributes(G4Color(1.0, 0.0, 1.0, 0.5));
     columnVisAtt->SetForceSolid(true);
     logicColumn->SetVisAttributes(columnVisAtt);
@@ -87,6 +102,27 @@ void SCDetectorConstruction::ConstructDetector()
     G4VisAttributes *detVisAtt = new G4VisAttributes(G4Color(1.0, 1.0, 0.0, 0.3));
     detVisAtt->SetForceSolid(true);
     logicDetector->SetVisAttributes(detVisAtt);
+}
+
+void SCDetectorConstruction::ConstructSource()
+{
+    // Define Carbon-14
+    G4Isotope *C14 = new G4Isotope("C14", 6, 14, 14.003242 * g / mole);
+    G4Element *elC14 = new G4Element("Carbon-14", "C14", 1);
+    elC14->AddIsotope(C14, 100 * perCent);
+    G4Material *matC14 = new G4Material("C14Source", 1.51 * g / cm3, 1);
+    matC14->AddElement(elC14, 100 * perCent);
+
+    // Carbon 14 Source
+    G4double sourceRadius = 50.*um;
+
+    solidSource = new G4Sphere("solidSource", 0., sourceRadius, 0.0, 360. * deg, 0.0, 180. * deg);
+    logicSource = new G4LogicalVolume(solidSource, matC14, "logicSource");
+    physSource = new G4PVPlacement(0, G4ThreeVector(0., 0., -100. * um), logicSource, "physSource", logicWorld, 0, checkOverlaps);
+    
+    G4VisAttributes *sourceVisAtt =  new G4VisAttributes(G4Color(0.0, 0.0, 1.0, 0.5));
+    sourceVisAtt->SetForceSolid(true);
+    logicSource->SetVisAttributes(sourceVisAtt);
 }
 
 G4VPhysicalVolume *SCDetectorConstruction::Construct()
@@ -116,12 +152,15 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
 
     ConstructDetector();
 
+    //ConstructSource();
+
     return physWorld;
 
 } 
 
 void SCDetectorConstruction::ConstructSDandField()
 {
+    // Photon Detector
     SCSensitiveDetector *sensDet = new SCSensitiveDetector("SensitiveDetector");
     logicDetector->SetSensitiveDetector(sensDet);
     G4SDManager::GetSDMpointer()->AddNewDetector(sensDet);

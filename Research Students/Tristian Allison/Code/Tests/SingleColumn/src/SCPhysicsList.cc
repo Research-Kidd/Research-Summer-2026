@@ -14,6 +14,10 @@ SCPhysicsList::SCPhysicsList()
     
     // Optical Physics
     RegisterPhysics(new G4OpticalPhysics());
+
+    // Decay Physics
+    RegisterPhysics(new G4RadioactiveDecayPhysics());
+    RegisterPhysics(new G4DecayPhysics());
 }
 
 SCPhysicsList::~SCPhysicsList()

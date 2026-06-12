@@ -25,16 +25,9 @@ SCPrimaryGenerator::SCPrimaryGenerator()
 
     G4ThreeVector mom(px, py, pz);
 
-    // Particle Type
-    G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-    G4ParticleDefinition *particle = particleTable->FindParticle("e-");
-
     // Particle gun features
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
-    fParticleGun->SetParticleEnergy(49.47 * keV); // Energy obtained from NUDAT at https://www.nndc.bnl.gov/nudat3/decaysearchdirect.jsp?nuc=14C&unc=NDS
-    fParticleGun->SetParticleDefinition(particle);
-
 }
 
 SCPrimaryGenerator::~SCPrimaryGenerator()
@@ -44,6 +37,19 @@ SCPrimaryGenerator::~SCPrimaryGenerator()
 
 void SCPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {
+    // Particle type
+    G4int Z = 6;
+    G4int A = 14;
+
+    // learn more about this stuff to get more correct data
+    G4double charge = 6. * eplus; // 
+    G4double energy = 1 * eV; //
+
+    G4ParticleDefinition *ion = G4IonTable::GetIonTable()->GetIon(Z, A, energy);
+    fParticleGun->SetParticleDefinition(ion);
+    fParticleGun->SetParticleCharge(charge);
+    fParticleGun->SetParticleEnergy(energy);
+
     // Create Vertex
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }
