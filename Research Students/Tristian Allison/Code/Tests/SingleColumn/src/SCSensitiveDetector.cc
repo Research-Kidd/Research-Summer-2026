@@ -9,7 +9,7 @@
 
 SCSensitiveDetector::SCSensitiveDetector(G4String name) : G4VSensitiveDetector(name)
 {
-    fTotalEnergyDeposited = 0.;
+    
 }
 
 SCSensitiveDetector::~SCSensitiveDetector()

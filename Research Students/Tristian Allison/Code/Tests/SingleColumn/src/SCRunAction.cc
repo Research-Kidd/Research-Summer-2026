@@ -13,14 +13,6 @@ SCRunAction::SCRunAction()
 
     analysisManager->CreateH1("fWlen", "Wavelengths", 100, 200., 800.);
 
-    analysisManager->CreateNtuple("Photons", "Photons");
-    analysisManager->CreateNtupleIColumn("iEvent");
-    analysisManager->CreateNtupleDColumn("fX");
-    analysisManager->CreateNtupleDColumn("fY");
-    analysisManager->CreateNtupleDColumn("fZ");
-    analysisManager->CreateNtupleDColumn("fGlobalTime");
-    analysisManager->FinishNtuple();
-
 }
 
 SCRunAction::~SCRunAction()
