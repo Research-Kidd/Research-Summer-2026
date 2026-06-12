@@ -14,6 +14,7 @@
 #include "G4AnalysisManager.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
+#include "G4PhysicalConstants.hh"
 
 class SCSensitiveDetector : public G4VSensitiveDetector
 {
@@ -22,8 +23,6 @@ class SCSensitiveDetector : public G4VSensitiveDetector
         ~SCSensitiveDetector();
 
     private:
-        G4double fTotalEnergyDeposited;
-
         virtual void Initialize(G4HCofThisEvent *) override;
         virtual void EndOfEvent(G4HCofThisEvent *) override;
 

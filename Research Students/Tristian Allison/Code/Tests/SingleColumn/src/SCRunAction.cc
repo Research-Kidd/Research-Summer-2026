@@ -11,7 +11,7 @@ SCRunAction::SCRunAction()
 {
     G4AnalysisManager *analysisManager = G4AnalysisManager::Instance();
 
-    analysisManager->CreateH1("Edep", "Energy deposit", 100, 0., 1.1 * MeV);
+    analysisManager->CreateH1("fWlen", "Wavelengths", 100, 200., 800.);
 
     analysisManager->CreateNtuple("Photons", "Photons");
     analysisManager->CreateNtupleIColumn("iEvent");
@@ -19,7 +19,6 @@ SCRunAction::SCRunAction()
     analysisManager->CreateNtupleDColumn("fY");
     analysisManager->CreateNtupleDColumn("fZ");
     analysisManager->CreateNtupleDColumn("fGlobalTime");
-    analysisManager->CreateNtupleDColumn("fWlen");
     analysisManager->FinishNtuple();
 
 }

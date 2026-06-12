@@ -40,9 +40,9 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
         virtual G4VPhysicalVolume *Construct();
 
     private:
-        G4LogicalVolume /**logicDetector,*/ *logicWorld, *logicColumn;
-        G4VPhysicalVolume *physWorld, *physColumn;
-        G4Box *solidWorld;
+        G4LogicalVolume *logicDetector, *logicWorld, *logicColumn;
+        G4VPhysicalVolume *physDetector, *physWorld, *physColumn;
+        G4Box *solidWorld, *solidDetector;
         G4Tubs *solidColumn;
         G4NistManager *nist;
 
@@ -51,6 +51,7 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
         virtual void ConstructSDandField();
 
         void ConstructScintillator();
+        void ConstructDetector();
 };
 
 

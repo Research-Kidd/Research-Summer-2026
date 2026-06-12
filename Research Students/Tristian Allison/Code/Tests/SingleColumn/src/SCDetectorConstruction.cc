@@ -28,6 +28,10 @@ void SCDetectorConstruction::ConstructScintillator()
     // TODO: fix these with correct energy emission spectrum when found
     G4double energy[size], rindexCsI[size], absCsI[size];
     G4double fraction[size] = {0.05, 0.1, 0.3, 0.7, 1.0, 0.7, 0.4, 0.15};
+    
+    G4double sum;
+    for (int i = 0; i < size; i++)
+        sum += fraction[i];
 
     // assign values to arrays
     for (int i = 0; i < size; i++)
@@ -35,6 +39,7 @@ void SCDetectorConstruction::ConstructScintillator()
         energy[i] = h_Planck*c_light/λ[i];
         rindexCsI[i] = 1.7481;
         absCsI[i] = 30. * cm;
+        fraction[i] = fraction[i] / sum; // normalize fraction
     }
     
     // Material
@@ -44,7 +49,7 @@ void SCDetectorConstruction::ConstructScintillator()
     G4MaterialPropertiesTable *mptColumn = new G4MaterialPropertiesTable();
     mptColumn->AddProperty("RINDEX", energy, rindexCsI, size);
     mptColumn->AddProperty("SCINTILLATIONCOMPONENT1", energy, fraction, size, true);
-    mptColumn->AddConstProperty("SCINTILLATIONYIELD", .01/keV);
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 0.1/keV); // fix this for real runs at 52/keV
     mptColumn->AddConstProperty("RESOLUTIONSCALE", 1.);
     mptColumn->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1080. * ns);
     mptColumn->AddConstProperty("SCINTILLATIONYIELD1", 1.);
@@ -62,6 +67,26 @@ void SCDetectorConstruction::ConstructScintillator()
     G4VisAttributes *columnVisAtt = new G4VisAttributes(G4Color(1.0, 0.0, 1.0, 0.5));
     columnVisAtt->SetForceSolid(true);
     logicColumn->SetVisAttributes(columnVisAtt);
+}
+
+void SCDetectorConstruction::ConstructDetector()
+{
+    // ------------------------------------------
+    // Same material as the world since this won't hinder photons differently
+    G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
+    // -------------------------------------------
+
+    G4double xDet = 500. * um;
+    G4double yDet = 500. * um;
+    G4double zDet = 50. * um;
+
+    solidDetector = new G4Box("solidDetector", 0.5 * xDet, 0.5 * yDet, 0.5 * zDet);
+    logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
+    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 250. * um), logicDetector, "physDetector", logicWorld, false, 0, checkOverlaps);
+
+    G4VisAttributes *detVisAtt = new G4VisAttributes(G4Color(1.0, 1.0, 0.0, 0.3));
+    detVisAtt->SetForceSolid(true);
+    logicDetector->SetVisAttributes(detVisAtt);
 }
 
 G4VPhysicalVolume *SCDetectorConstruction::Construct()
@@ -89,14 +114,15 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
 
     ConstructScintillator();
 
+    ConstructDetector();
+
     return physWorld;
 
 } 
 
 void SCDetectorConstruction::ConstructSDandField()
 {
-    //SCSensitiveDetector *sensDet = new SCSensitiveDetector("SensitiveDetector");
-    //logicDetector->SetSensitiveDetector(sensDet);
-    //G4SDManager::GetSDMpointer()->AddNewDetector(sensDet);
-
+    SCSensitiveDetector *sensDet = new SCSensitiveDetector("SensitiveDetector");
+    logicDetector->SetSensitiveDetector(sensDet);
+    G4SDManager::GetSDMpointer()->AddNewDetector(sensDet);
 }
