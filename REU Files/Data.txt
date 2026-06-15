@@ -1,0 +1,3051 @@
+Vernier Format 2
+untitled.txt 6/15/2026 13:51:4
+Run 1
+Time	Gate State	Distance	Velocity	Acceleration	
+T	G	D	V	A	
+s		m	m/s	m/s^2	
+
+0.00000	Blocked	0.000			
+0.02968	Unblocked				
+0.87531	Blocked	0.050	0.054	-0.01	
+0.90517	Unblocked				
+1.85602	Blocked	0.100	0.054	0.01	
+1.88274	Unblocked				
+2.74083	Blocked	0.150	0.054	-0.01	
+2.76831	Unblocked				
+3.71993	Blocked	0.200	0.054	0.01	
+3.75128	Unblocked				
+4.59725	Blocked	0.250	0.054	-0.01	
+4.62774	Unblocked				
+5.58678	Blocked	0.300	0.054	0.01	
+5.61629	Unblocked				
+6.45998	Blocked	0.350	0.054	-0.01	
+6.48929	Unblocked				
+7.44794	Blocked	0.400	0.054	0.01	
+7.47988	Unblocked				
+8.32257	Blocked	0.450	0.054	-0.01	
+8.35406	Unblocked				
+9.30262	Blocked	0.500	0.054	0.01	
+9.33392	Unblocked				
+10.18053	Blocked	0.550	0.054	-0.01	
+10.21181	Unblocked				
+11.15959	Blocked	0.600	0.054	0.01	
+11.19199	Unblocked				
+12.03069	Blocked	0.650	0.054	-0.01	
+12.06301	Unblocked				
+13.01868	Blocked	0.700	0.054	0.01	
+13.05130	Unblocked				
+13.88835	Blocked	0.750	0.054	-0.01	
+13.92130	Unblocked				
+14.87653	Blocked	0.800	0.054	0.01	
+14.90950	Unblocked				
+15.74408	Blocked	0.850	0.054	-0.01	
+15.77701	Unblocked				
+16.73185	Blocked	0.900	0.054	0.01	
+16.76563	Unblocked				
+17.59932	Blocked	0.950	0.054	-0.01	
+17.63328	Unblocked				
+18.58716	Blocked	1.000	0.054	0.01	
+18.62101	Unblocked				
+19.45428	Blocked	1.050	0.054	-0.01	
+19.48814	Unblocked				
+20.44180	Blocked	1.100	0.054	0.01	
+20.47672	Unblocked				
+21.30660	Blocked	1.150	0.054	-0.01	
+21.34153	Unblocked				
+22.29439	Blocked	1.200	0.054	0.01	
+22.32954	Unblocked				
+23.15955	Blocked	1.250	0.054	-0.01	
+23.19415	Unblocked				
+24.14808	Blocked	1.300	0.054	0.01	
+24.18387	Unblocked				
+25.01142	Blocked	1.350	0.054	-0.01	
+25.04702	Unblocked				
+25.99978	Blocked	1.400	0.055	0.01	
+26.03547	Unblocked				
+26.86204	Blocked	1.450	0.055	-0.01	
+26.89788	Unblocked				
+27.84992	Blocked	1.500	0.055	0.01	
+27.88653	Unblocked				
+28.71163	Blocked	1.550	0.055	-0.01	
+28.74781	Unblocked				
+29.70116	Blocked	1.600	0.055	0.01	
+29.73799	Unblocked				
+30.56155	Blocked	1.650	0.055	-0.01	
+30.59847	Unblocked				
+31.55104	Blocked	1.700	0.055	0.01	
+31.58823	Unblocked				
+32.41008	Blocked	1.750	0.055	-0.01	
+32.44721	Unblocked				
+33.39902	Blocked	1.800	0.055	0.01	
+33.43685	Unblocked				
+34.25781	Blocked	1.850	0.055	-0.01	
+34.29541	Unblocked				
+35.24774	Blocked	1.900	0.055	0.01	
+35.28578	Unblocked				
+36.10584	Blocked	1.950	0.055	-0.01	
+36.14399	Unblocked				
+37.09613	Blocked	2.000	0.055	0.01	
+37.13464	Unblocked				
+37.95250	Blocked	2.050	0.055	-0.01	
+37.99101	Unblocked				
+38.94285	Blocked	2.100	0.055	0.01	
+38.98196	Unblocked				
+39.79858	Blocked	2.150	0.055	-0.01	
+39.83751	Unblocked				
+40.78965	Blocked	2.200	0.055	0.01	
+40.82905	Unblocked				
+41.64482	Blocked	2.250	0.055	-0.01	
+41.68435	Unblocked				
+42.63604	Blocked	2.300	0.055	0.01	
+42.67589	Unblocked				
+43.48976	Blocked	2.350	0.055	-0.01	
+43.52969	Unblocked				
+44.48121	Blocked	2.400	0.055	0.01	
+44.52162	Unblocked				
+45.33415	Blocked	2.450	0.055	-0.01	
+45.37442	Unblocked				
+46.32641	Blocked	2.500	0.055	0.01	
+46.36718	Unblocked				
+47.17868	Blocked	2.550	0.055	-0.01	
+47.21947	Unblocked				
+48.17136	Blocked	2.600	0.055	0.01	
+48.21245	Unblocked				
+49.02217	Blocked	2.650	0.055	-0.01	
+49.06339	Unblocked				
+50.01493	Blocked	2.700	0.055	0.01	
+50.05662	Unblocked				
+50.86490	Blocked	2.750	0.055	-0.01	
+50.90649	Unblocked				
+51.85854	Blocked	2.800	0.055	0.01	
+51.90063	Unblocked				
+52.70784	Blocked	2.850	0.055	-0.01	
+52.74998	Unblocked				
+53.70204	Blocked	2.900	0.055	0.01	
+53.74450	Unblocked				
+54.54989	Blocked	2.950	0.055	-0.01	
+54.59250	Unblocked				
+55.54419	Blocked	3.000	0.055	0.01	
+55.58722	Unblocked				
+56.39120	Blocked	3.050	0.055	-0.01	
+56.43413	Unblocked				
+57.38628	Blocked	3.100	0.055	0.01	
+57.42974	Unblocked				
+58.23263	Blocked	3.150	0.055	-0.01	
+58.27611	Unblocked				
+59.22837	Blocked	3.200	0.055	0.01	
+59.27224	Unblocked				
+60.07325	Blocked	3.250	0.055	-0.01	
+60.11720	Unblocked				
+61.06927	Blocked	3.300	0.055	0.01	
+61.11368	Unblocked				
+61.91320	Blocked	3.350	0.055	-0.01	
+61.95751	Unblocked				
+62.90995	Blocked	3.400	0.055	0.01	
+62.95479	Unblocked				
+63.75324	Blocked	3.450	0.055	-0.01	
+63.79806	Unblocked				
+64.75062	Blocked	3.500	0.055	0.01	
+64.79589	Unblocked				
+65.59256	Blocked	3.550	0.055	-0.01	
+65.63788	Unblocked				
+66.59031	Blocked	3.600	0.055	0.01	
+66.63609	Unblocked				
+67.43123	Blocked	3.650	0.055	-0.01	
+67.47695	Unblocked				
+68.42980	Blocked	3.700	0.055	0.01	
+68.47602	Unblocked				
+69.27007	Blocked	3.750	0.055	-0.01	
+69.31628	Unblocked				
+70.26930	Blocked	3.800	0.055	0.01	
+70.31599	Unblocked				
+71.10827	Blocked	3.850	0.055	-0.01	
+71.15499	Unblocked				
+72.10785	Blocked	3.900	0.055	0.01	
+72.15512	Unblocked				
+72.94593	Blocked	3.950	0.055	-0.01	
+72.99301	Unblocked				
+73.94626	Blocked	4.000	0.055	0.01	
+73.99397	Unblocked				
+74.78362	Blocked	4.050	0.055	-0.01	
+74.83123	Unblocked				
+75.78474	Blocked	4.100	0.055	0.01	
+75.83279	Unblocked				
+76.62071	Blocked	4.150	0.055	-0.01	
+76.66888	Unblocked				
+77.62230	Blocked	4.200	0.055	0.01	
+77.67091	Unblocked				
+78.45735	Blocked	4.250	0.055	-0.01	
+78.50591	Unblocked				
+79.45974	Blocked	4.300	0.055	0.01	
+79.50881	Unblocked				
+80.29414	Blocked	4.350	0.055	-0.01	
+80.34319	Unblocked				
+81.29716	Blocked	4.400	0.055	0.01	
+81.34669	Unblocked				
+82.13039	Blocked	4.450	0.055	-0.01	
+82.17994	Unblocked				
+83.13379	Blocked	4.500	0.055	0.01	
+83.18393	Unblocked				
+83.96609	Blocked	4.550	0.055	-0.01	
+84.01602	Unblocked				
+84.97029	Blocked	4.600	0.055	0.01	
+85.02082	Unblocked				
+85.80181	Blocked	4.650	0.055	-0.01	
+85.85231	Unblocked				
+86.80682	Blocked	4.700	0.055	0.01	
+86.85776	Unblocked				
+87.63711	Blocked	4.750	0.055	-0.01	
+87.68814	Unblocked				
+88.64259	Blocked	4.800	0.056	0.01	
+88.69407	Unblocked				
+89.47191	Blocked	4.850	0.056	-0.01	
+89.52334	Unblocked				
+90.47816	Blocked	4.900	0.056	0.01	
+90.53013	Unblocked				
+91.30676	Blocked	4.950	0.056	-0.01	
+91.35869	Unblocked				
+92.31376	Blocked	5.000	0.056	0.01	
+92.36622	Unblocked				
+93.14121	Blocked	5.050	0.056	-0.01	
+93.19362	Unblocked				
+94.14870	Blocked	5.100	0.056	0.01	
+94.20175	Unblocked				
+94.97520	Blocked	5.150	0.056	-0.01	
+95.02802	Unblocked				
+95.98350	Blocked	5.200	0.056	0.01	
+96.03703	Unblocked				
+96.80916	Blocked	5.250	0.056	-0.01	
+96.86255	Unblocked				
+97.81833	Blocked	5.300	0.056	0.01	
+97.87230	Unblocked				
+98.64280	Blocked	5.350	0.056	-0.01	
+98.69674	Unblocked				
+99.65253	Blocked	5.400	0.056	0.01	
+99.70707	Unblocked				
+100.47601	Blocked	5.450	0.056	-0.01	
+100.53043	Unblocked				
+101.48655	Blocked	5.500	0.056	0.01	
+101.54158	Unblocked				
+102.30927	Blocked	5.550	0.056	-0.01	
+102.36423	Unblocked				
+103.32059	Blocked	5.600	0.056	0.01	
+103.37611	Unblocked				
+104.14218	Blocked	5.650	0.056	-0.01	
+104.19765	Unblocked				
+105.15407	Blocked	5.700	0.056	0.01	
+105.21017	Unblocked				
+105.97466	Blocked	5.750	0.056	-0.01	
+106.03059	Unblocked				
+106.98735	Blocked	5.800	0.056	0.01	
+107.04397	Unblocked				
+107.80715	Blocked	5.850	0.056	-0.01	
+107.86357	Unblocked				
+108.82064	Blocked	5.900	0.056	0.01	
+108.87774	Unblocked				
+109.63927	Blocked	5.950	0.056	-0.01	
+109.69624	Unblocked				
+110.65340	Blocked	6.000	0.056	0.01	
+110.71106	Unblocked				
+111.47105	Blocked	6.050	0.056	-0.01	
+111.52850	Unblocked				
+112.48603	Blocked	6.100	0.056	0.01	
+112.54418	Unblocked				
+113.30282	Blocked	6.150	0.056	-0.01	
+113.36084	Unblocked				
+114.31865	Blocked	6.200	0.056	0.01	
+114.37730	Unblocked				
+115.13429	Blocked	6.250	0.056	-0.01	
+115.19283	Unblocked				
+116.15081	Blocked	6.300	0.056	0.01	
+116.21005	Unblocked				
+116.96543	Blocked	6.350	0.056	-0.01	
+117.02448	Unblocked				
+117.98279	Blocked	6.400	0.056	0.01	
+118.04258	Unblocked				
+118.79656	Blocked	6.450	0.056	-0.01	
+118.85616	Unblocked				
+119.81476	Blocked	6.500	0.056	0.01	
+119.87507	Unblocked				
+120.62736	Blocked	6.550	0.056	-0.01	
+120.68752	Unblocked				
+121.64631	Blocked	6.600	0.056	0.01	
+121.70718	Unblocked				
+122.45790	Blocked	6.650	0.056	-0.01	
+122.51857	Unblocked				
+123.47775	Blocked	6.700	0.056	0.01	
+123.53916	Unblocked				
+124.28845	Blocked	6.750	0.056	-0.01	
+124.34963	Unblocked				
+125.30912	Blocked	6.800	0.056	0.01	
+125.37104	Unblocked				
+126.11865	Blocked	6.850	0.056	-0.01	
+126.18040	Unblocked				
+127.14009	Blocked	6.900	0.056	0.01	
+127.20256	Unblocked				
+127.94858	Blocked	6.950	0.056	-0.01	
+128.01086	Unblocked				
+128.97094	Blocked	7.000	0.056	0.01	
+129.03398	Unblocked				
+129.77850	Blocked	7.050	0.056	-0.01	
+129.84133	Unblocked				
+130.80172	Blocked	7.100	0.056	0.01	
+130.86527	Unblocked				
+131.60814	Blocked	7.150	0.056	-0.01	
+131.67156	Unblocked				
+132.63214	Blocked	7.200	0.056	0.01	
+132.69629	Unblocked				
+133.43758	Blocked	7.250	0.056	-0.01	
+133.50151	Unblocked				
+134.46250	Blocked	7.300	0.056	0.01	
+134.52722	Unblocked				
+135.26701	Blocked	7.350	0.056	-0.01	
+135.33149	Unblocked				
+136.29277	Blocked	7.400	0.056	0.01	
+136.35807	Unblocked				
+137.09613	Blocked	7.450	0.056	-0.01	
+137.16117	Unblocked				
+138.12269	Blocked	7.500	0.056	0.01	
+138.18858	Unblocked				
+138.92503	Blocked	7.550	0.056	-0.01	
+138.99061	Unblocked				
+139.95252	Blocked	7.600	0.056	0.02	
+140.01897	Unblocked				
+140.75391	Blocked	7.650	0.056	-0.02	
+140.82007	Unblocked				
+141.78230	Blocked	7.700	0.056	0.02	
+141.84930	Unblocked				
+142.58251	Blocked	7.750	0.056	-0.02	
+142.64924	Unblocked				
+143.61171	Blocked	7.800	0.056	0.02	
+143.67931	Unblocked				
+144.41090	Blocked	7.850	0.056	-0.02	
+144.47821	Unblocked				
+145.44106	Blocked	7.900	0.056	0.02	
+145.50924	Unblocked				
+146.23932	Blocked	7.950	0.056	-0.02	
+146.30719	Unblocked				
+147.27031	Blocked	8.000	0.057	0.02	
+147.33908	Unblocked				
+148.06743	Blocked	8.050	0.057	-0.02	
+148.13589	Unblocked				
+149.09929	Blocked	8.100	0.057	0.02	
+149.16868	Unblocked				
+149.89537	Blocked	8.150	0.057	-0.02	
+149.96442	Unblocked				
+150.92828	Blocked	8.200	0.057	0.02	
+150.99822	Unblocked				
+151.72330	Blocked	8.250	0.057	-0.02	
+151.79295	Unblocked				
+152.75715	Blocked	8.300	0.057	0.02	
+152.82767	Unblocked				
+153.55100	Blocked	8.350	0.057	-0.02	
+153.62125	Unblocked				
+154.58572	Blocked	8.400	0.057	0.02	
+154.65687	Unblocked				
+155.37856	Blocked	8.450	0.057	-0.02	
+155.44936	Unblocked				
+156.41429	Blocked	8.500	0.057	0.02	
+156.48602	Unblocked				
+157.20610	Blocked	8.550	0.057	-0.02	
+157.27749	Unblocked				
+158.24277	Blocked	8.600	0.057	0.02	
+158.31510	Unblocked				
+159.03339	Blocked	8.650	0.057	-0.02	
+159.10539	Unblocked				
+160.07096	Blocked	8.700	0.057	0.02	
+160.14389	Unblocked				
+160.86055	Blocked	8.750	0.057	-0.02	
+160.93315	Unblocked				
+161.89908	Blocked	8.800	0.057	0.02	
+161.97265	Unblocked				
+162.68766	Blocked	8.850	0.057	-0.02	
+162.76083	Unblocked				
+163.72712	Blocked	8.900	0.057	0.02	
+163.80129	Unblocked				
+164.51452	Blocked	8.950	0.057	-0.02	
+164.58830	Unblocked				
+165.55496	Blocked	9.000	0.057	0.02	
+165.62976	Unblocked				
+166.34129	Blocked	9.050	0.057	-0.02	
+166.41567	Unblocked				
+167.38275	Blocked	9.100	0.057	0.02	
+167.45817	Unblocked				
+168.16801	Blocked	9.150	0.057	-0.02	
+168.24301	Unblocked				
+169.21044	Blocked	9.200	0.057	0.02	
+169.28647	Unblocked				
+169.99455	Blocked	9.250	0.057	-0.02	
+170.07015	Unblocked				
+171.03787	Blocked	9.300	0.057	0.02	
+171.11456	Unblocked				
+171.82096	Blocked	9.350	0.057	-0.02	
+171.89714	Unblocked				
+172.86533	Blocked	9.400	0.057	0.02	
+172.94260	Unblocked				
+173.64728	Blocked	9.450	0.057	-0.02	
+173.72411	Unblocked				
+174.69269	Blocked	9.500	0.057	0.02	
+174.77059	Unblocked				
+175.47344	Blocked	9.550	0.057	-0.02	
+175.55089	Unblocked				
+176.51985	Blocked	9.600	0.057	0.02	
+176.59841	Unblocked				
+177.29952	Blocked	9.650	0.057	-0.02	
+177.37756	Unblocked				
+178.34697	Blocked	9.700	0.057	0.02	
+178.42616	Unblocked				
+179.12552	Blocked	9.750	0.057	-0.02	
+179.20421	Unblocked				
+180.17395	Blocked	9.800	0.057	0.02	
+180.25382	Unblocked				
+180.95139	Blocked	9.850	0.057	-0.02	
+181.03069	Unblocked				
+182.00083	Blocked	9.900	0.057	0.02	
+182.08134	Unblocked				
+182.77707	Blocked	9.950	0.057	-0.02	
+182.85699	Unblocked				
+183.82758	Blocked	10.000	0.057	0.02	
+183.90874	Unblocked				
+184.60277	Blocked	10.050	0.057	-0.02	
+184.68329	Unblocked				
+185.65425	Blocked	10.100	0.057	0.02	
+185.73608	Unblocked				
+186.42818	Blocked	10.150	0.057	-0.02	
+186.50933	Unblocked				
+187.48074	Blocked	10.200	0.057	0.02	
+187.56325	Unblocked				
+188.25350	Blocked	10.250	0.057	-0.02	
+188.33527	Unblocked				
+189.30719	Blocked	10.300	0.057	0.02	
+189.39035	Unblocked				
+190.07873	Blocked	10.350	0.057	-0.02	
+190.16116	Unblocked				
+191.13356	Blocked	10.400	0.058	0.02	
+191.21743	Unblocked				
+191.90392	Blocked	10.450	0.058	-0.02	
+191.98702	Unblocked				
+192.95983	Blocked	10.500	0.058	0.02	
+193.04439	Unblocked				
+193.72909	Blocked	10.550	0.058	-0.02	
+193.81280	Unblocked				
+194.78601	Blocked	10.600	0.058	0.02	
+194.87124	Unblocked				
+195.55416	Blocked	10.650	0.058	-0.02	
+195.63850	Unblocked				
+196.61202	Blocked	10.700	0.058	0.02	
+196.69792	Unblocked				
+197.37906	Blocked	10.750	0.058	-0.02	
+197.46406	Unblocked				
+198.43794	Blocked	10.800	0.058	0.02	
+198.52454	Unblocked				
+199.20392	Blocked	10.850	0.058	-0.02	
+199.28953	Unblocked				
+200.26386	Blocked	10.900	0.058	0.02	
+200.35113	Unblocked				
+201.02863	Blocked	10.950	0.058	-0.02	
+201.11494	Unblocked				
+202.08966	Blocked	11.000	0.058	0.02	
+202.17764	Unblocked				
+202.85326	Blocked	11.050	0.058	-0.02	
+202.94020	Unblocked				
+203.91534	Blocked	11.100	0.058	0.02	
+204.00404	Unblocked				
+204.67777	Blocked	11.150	0.058	-0.02	
+204.76539	Unblocked				
+205.74104	Blocked	11.200	0.058	0.02	
+205.83043	Unblocked				
+206.50224	Blocked	11.250	0.058	-0.02	
+206.59057	Unblocked				
+207.56659	Blocked	11.300	0.058	0.02	
+207.65675	Unblocked				
+208.32659	Blocked	11.350	0.058	-0.02	
+208.41562	Unblocked				
+209.39208	Blocked	11.400	0.058	0.02	
+209.48295	Unblocked				
+210.15088	Blocked	11.450	0.058	-0.02	
+210.24062	Unblocked				
+211.21751	Blocked	11.500	0.058	0.02	
+211.30912	Unblocked				
+211.97505	Blocked	11.550	0.058	-0.02	
+212.06552	Unblocked				
+213.04281	Blocked	11.600	0.058	0.02	
+213.13517	Unblocked				
+213.79910	Blocked	11.650	0.058	-0.02	
+213.89031	Unblocked				
+214.86807	Blocked	11.700	0.058	0.02	
+214.96115	Unblocked				
+215.62309	Blocked	11.750	0.058	-0.02	
+215.71506	Unblocked				
+216.69328	Blocked	11.800	0.058	0.02	
+216.78714	Unblocked				
+217.44690	Blocked	11.850	0.058	-0.02	
+217.53965	Unblocked				
+218.51834	Blocked	11.900	0.058	0.02	
+218.61297	Unblocked				
+219.27051	Blocked	11.950	0.058	-0.02	
+219.36403	Unblocked				
+220.34323	Blocked	12.000	0.058	0.02	
+220.43865	Unblocked				
+221.09401	Blocked	12.050	0.058	-0.02	
+221.18838	Unblocked				
+222.16810	Blocked	12.100	0.058	0.02	
+222.26432	Unblocked				
+222.91750	Blocked	12.150	0.058	-0.02	
+223.01268	Unblocked				
+223.99285	Blocked	12.200	0.058	0.02	
+224.08985	Unblocked				
+224.74087	Blocked	12.250	0.058	-0.02	
+224.83692	Unblocked				
+225.81750	Blocked	12.300	0.059	0.02	
+225.91532	Unblocked				
+226.56427	Blocked	12.350	0.059	-0.02	
+226.66115	Unblocked				
+227.64217	Blocked	12.400	0.059	0.02	
+227.74079	Unblocked				
+228.38758	Blocked	12.450	0.059	-0.02	
+228.48531	Unblocked				
+229.46676	Blocked	12.500	0.059	0.02	
+229.56624	Unblocked				
+230.21083	Blocked	12.550	0.059	-0.02	
+230.30945	Unblocked				
+231.29132	Blocked	12.600	0.059	0.02	
+231.39161	Unblocked				
+232.03403	Blocked	12.650	0.059	-0.02	
+232.13350	Unblocked				
+233.11577	Blocked	12.700	0.059	0.02	
+233.21694	Unblocked				
+233.85708	Blocked	12.750	0.059	-0.02	
+233.95745	Unblocked				
+234.94017	Blocked	12.800	0.059	0.02	
+235.04219	Unblocked				
+235.68006	Blocked	12.850	0.059	-0.02	
+235.78135	Unblocked				
+236.76451	Blocked	12.900	0.059	0.02	
+236.86733	Unblocked				
+237.50301	Blocked	12.950	0.059	-0.02	
+237.60516	Unblocked				
+238.58881	Blocked	13.000	0.059	0.02	
+238.69247	Unblocked				
+239.32577	Blocked	13.050	0.059	-0.02	
+239.42891	Unblocked				
+240.41299	Blocked	13.100	0.059	0.02	
+240.51753	Unblocked				
+241.14844	Blocked	13.150	0.059	-0.02	
+241.25252	Unblocked				
+242.23710	Blocked	13.200	0.059	0.02	
+242.34247	Unblocked				
+242.97108	Blocked	13.250	0.059	-0.02	
+243.07608	Unblocked				
+244.06114	Blocked	13.300	0.059	0.02	
+244.16736	Unblocked				
+244.79362	Blocked	13.350	0.059	-0.02	
+244.89959	Unblocked				
+245.88512	Blocked	13.400	0.059	0.02	
+245.99231	Unblocked				
+246.61617	Blocked	13.450	0.059	-0.02	
+246.72310	Unblocked				
+247.70908	Blocked	13.500	0.059	0.02	
+247.81714	Unblocked				
+248.43867	Blocked	13.550	0.059	-0.03	
+248.54655	Unblocked				
+249.53294	Blocked	13.600	0.059	0.03	
+249.64190	Unblocked				
+250.26104	Blocked	13.650	0.059	-0.03	
+250.36988	Unblocked				
+251.35676	Blocked	13.700	0.060	0.03	
+251.46661	Unblocked				
+252.08335	Blocked	13.750	0.060	-0.03	
+252.19313	Unblocked				
+253.18054	Blocked	13.800	0.060	0.03	
+253.29130	Unblocked				
+253.90562	Blocked	13.850	0.060	-0.03	
+254.01637	Unblocked				
+255.00430	Blocked	13.900	0.060	0.03	
+255.11597	Unblocked				
+255.72776	Blocked	13.950	0.060	-0.03	
+255.83949	Unblocked				
+256.82795	Blocked	14.000	0.060	0.03	
+256.94046	Unblocked				
+257.54982	Blocked	14.050	0.060	-0.03	
+257.66255	Unblocked				
+258.65157	Blocked	14.100	0.060	0.03	
+258.76496	Unblocked				
+259.37189	Blocked	14.150	0.060	-0.03	
+259.48553	Unblocked				
+260.47514	Blocked	14.200	0.060	0.03	
+260.58950	Unblocked				
+261.19389	Blocked	14.250	0.060	-0.03	
+261.30855	Unblocked				
+262.29857	Blocked	14.300	0.060	0.03	
+262.41387	Unblocked				
+263.01578	Blocked	14.350	0.060	-0.03	
+263.13145	Unblocked				
+264.12202	Blocked	14.400	0.060	0.03	
+264.23827	Unblocked				
+264.83770	Blocked	14.450	0.060	-0.03	
+264.95440	Unblocked				
+265.94537	Blocked	14.500	0.060	0.03	
+266.06255	Unblocked				
+266.65946	Blocked	14.550	0.060	-0.03	
+266.77714	Unblocked				
+267.76857	Blocked	14.600	0.060	0.03	
+267.88676	Unblocked				
+268.48102	Blocked	14.650	0.060	-0.03	
+268.59975	Unblocked				
+269.59178	Blocked	14.700	0.060	0.03	
+269.71091	Unblocked				
+270.30254	Blocked	14.750	0.060	-0.03	
+270.42233	Unblocked				
+271.41499	Blocked	14.800	0.061	0.03	
+271.53513	Unblocked				
+272.12409	Blocked	14.850	0.061	-0.03	
+272.24489	Unblocked				
+273.23813	Blocked	14.900	0.061	0.03	
+273.35930	Unblocked				
+273.94559	Blocked	14.950	0.061	-0.03	
+274.06748	Unblocked				
+275.06128	Blocked	15.000	0.061	0.03	
+275.18337	Unblocked				
+275.76707	Blocked	15.050	0.061	-0.03	
+275.89000	Unblocked				
+276.88430	Blocked	15.100	0.061	0.03	
+277.00732	Unblocked				
+277.58843	Blocked	15.150	0.061	-0.03	
+277.71243	Unblocked				
+278.70727	Blocked	15.200	0.061	0.03	
+278.83127	Unblocked				
+279.40971	Blocked	15.250	0.061	-0.03	
+279.53483	Unblocked				
+280.53025	Blocked	15.300	0.061	0.03	
+280.65530	Unblocked				
+281.23101	Blocked	15.350	0.061	-0.03	
+281.35724	Unblocked				
+282.35325	Blocked	15.400	0.061	0.03	
+282.47936	Unblocked				
+283.05230	Blocked	15.450	0.061	-0.03	
+283.17965	Unblocked				
+284.17612	Blocked	15.500	0.061	0.03	
+284.30328	Unblocked				
+284.87347	Blocked	15.550	0.061	-0.03	
+285.00197	Unblocked				
+285.99898	Blocked	15.600	0.061	0.03	
+286.12719	Unblocked				
+286.69466	Blocked	15.650	0.061	-0.03	
+286.82426	Unblocked				
+287.82181	Blocked	15.700	0.062	0.03	
+287.95110	Unblocked				
+288.51569	Blocked	15.750	0.061	-0.03	
+288.64651	Unblocked				
+289.64455	Blocked	15.800	0.062	0.03	
+289.77492	Unblocked				
+290.33669	Blocked	15.850	0.062	-0.03	
+290.46866	Unblocked				
+291.46729	Blocked	15.900	0.062	0.03	
+291.59872	Unblocked				
+292.15754	Blocked	15.950	0.062	-0.03	
+292.29074	Unblocked				
+293.28997	Blocked	16.000	0.062	0.03	
+293.42249	Unblocked				
+293.97831	Blocked	16.050	0.062	-0.03	
+294.11267	Unblocked				
+295.11263	Blocked	16.100	0.062	0.03	
+295.24626	Unblocked				
+295.79897	Blocked	16.150	0.062	-0.03	
+295.93458	Unblocked				
+296.93522	Blocked	16.200	0.062	0.03	
+297.07003	Unblocked				
+297.61958	Blocked	16.250	0.062	-0.03	
+297.75642	Unblocked				
+298.75773	Blocked	16.300	0.062	0.03	
+298.89370	Unblocked				
+299.44022	Blocked	16.350	0.062	-0.03	
+299.57829	Unblocked				
+300.58023	Blocked	16.400	0.062	0.03	
+300.71739	Unblocked				
+301.26072	Blocked	16.450	0.062	-0.03	
+301.40005	Unblocked				
+302.40267	Blocked	16.500	0.063	0.03	
+302.54096	Unblocked				
+303.08115	Blocked	16.550	0.063	-0.03	
+303.22176	Unblocked				
+304.22500	Blocked	16.600	0.063	0.03	
+304.36449	Unblocked				
+304.90158	Blocked	16.650	0.063	-0.03	
+305.04345	Unblocked				
+306.04730	Blocked	16.700	0.063	0.03	
+306.18796	Unblocked				
+306.72197	Blocked	16.750	0.063	-0.03	
+306.86508	Unblocked				
+307.86958	Blocked	16.800	0.063	0.03	
+308.01146	Unblocked				
+308.54223	Blocked	16.850	0.063	-0.03	
+308.68667	Unblocked				
+309.69186	Blocked	16.900	0.063	0.03	
+309.83496	Unblocked				
+310.36256	Blocked	16.950	0.063	-0.03	
+310.50829	Unblocked				
+311.51407	Blocked	17.000	0.063	0.03	
+311.65838	Unblocked				
+312.18291	Blocked	17.050	0.063	-0.03	
+312.32990	Unblocked				
+313.33626	Blocked	17.100	0.063	0.03	
+313.48173	Unblocked				
+314.00315	Blocked	17.150	0.063	-0.03	
+314.15143	Unblocked				
+315.15831	Blocked	17.200	0.064	0.04	
+315.30508	Unblocked				
+315.82337	Blocked	17.250	0.064	-0.04	
+315.97294	Unblocked				
+316.98048	Blocked	17.300	0.064	0.04	
+317.12853	Unblocked				
+317.64340	Blocked	17.350	0.064	-0.04	
+317.79435	Unblocked				
+318.80259	Blocked	17.400	0.064	0.04	
+318.95197	Unblocked				
+319.46329	Blocked	17.450	0.064	-0.04	
+319.61563	Unblocked				
+320.62465	Blocked	17.500	0.064	0.04	
+320.77535	Unblocked				
+321.28322	Blocked	17.550	0.064	-0.04	
+321.43693	Unblocked				
+322.44669	Blocked	17.600	0.064	0.04	
+322.59870	Unblocked				
+323.10305	Blocked	17.650	0.064	-0.04	
+323.25820	Unblocked				
+324.26865	Blocked	17.700	0.064	0.04	
+324.42205	Unblocked				
+324.92276	Blocked	17.750	0.064	-0.04	
+325.07933	Unblocked				
+326.09058	Blocked	17.800	0.065	0.04	
+326.24530	Unblocked				
+326.74246	Blocked	17.850	0.065	-0.04	
+326.90051	Unblocked				
+327.91242	Blocked	17.900	0.065	0.04	
+328.06855	Unblocked				
+328.56213	Blocked	17.950	0.065	-0.04	
+328.72165	Unblocked				
+329.73429	Blocked	18.000	0.065	0.04	
+329.89181	Unblocked				
+330.38174	Blocked	18.050	0.065	-0.04	
+330.54271	Unblocked				
+331.55612	Blocked	18.100	0.065	0.04	
+331.71505	Unblocked				
+332.20135	Blocked	18.150	0.065	-0.04	
+332.36376	Unblocked				
+333.37793	Blocked	18.200	0.065	0.04	
+333.53828	Unblocked				
+334.02093	Blocked	18.250	0.065	-0.04	
+334.18478	Unblocked				
+335.19964	Blocked	18.300	0.065	0.04	
+335.36144	Unblocked				
+335.84037	Blocked	18.350	0.065	-0.04	
+336.00573	Unblocked				
+337.02129	Blocked	18.400	0.066	0.04	
+337.18462	Unblocked				
+337.65977	Blocked	18.450	0.066	-0.04	
+337.82664	Unblocked				
+338.84297	Blocked	18.500	0.066	0.04	
+339.00778	Unblocked				
+339.47902	Blocked	18.550	0.066	-0.04	
+339.64750	Unblocked				
+340.66461	Blocked	18.600	0.066	0.04	
+340.83094	Unblocked				
+341.29824	Blocked	18.650	0.066	-0.04	
+341.46823	Unblocked				
+342.48615	Blocked	18.700	0.066	0.04	
+342.65405	Unblocked				
+343.11733	Blocked	18.750	0.066	-0.04	
+343.28897	Unblocked				
+344.30768	Blocked	18.800	0.067	0.04	
+344.47720	Unblocked				
+344.93643	Blocked	18.850	0.067	-0.04	
+345.10966	Unblocked				
+346.12919	Blocked	18.900	0.067	0.04	
+346.30030	Unblocked				
+346.75552	Blocked	18.950	0.067	-0.04	
+346.93041	Unblocked				
+347.95073	Blocked	19.000	0.067	0.04	
+348.12343	Unblocked				
+348.57445	Blocked	19.050	0.067	-0.04	
+348.75103	Unblocked				
+349.77220	Blocked	19.100	0.067	0.04	
+349.94656	Unblocked				
+350.39329	Blocked	19.150	0.067	-0.04	
+350.57157	Unblocked				
+351.59365	Blocked	19.200	0.068	0.04	
+351.76964	Unblocked				
+352.21219	Blocked	19.250	0.068	-0.04	
+352.39210	Unblocked				
+353.41496	Blocked	19.300	0.068	0.04	
+353.59279	Unblocked				
+354.03091	Blocked	19.350	0.068	-0.04	
+354.21263	Unblocked				
+355.23627	Blocked	19.400	0.068	0.04	
+355.41582	Unblocked				
+355.84949	Blocked	19.450	0.068	-0.04	
+356.03301	Unblocked				
+357.05757	Blocked	19.500	0.068	0.04	
+357.23884	Unblocked				
+357.66807	Blocked	19.550	0.068	-0.04	
+357.85338	Unblocked				
+358.87883	Blocked	19.600	0.069	0.05	
+359.06196	Unblocked				
+359.48667	Blocked	19.650	0.069	-0.05	
+359.67378	Unblocked				
+360.70002	Blocked	19.700	0.069	0.05	
+360.88497	Unblocked				
+361.30517	Blocked	19.750	0.069	-0.05	
+361.49404	Unblocked				
+362.52117	Blocked	19.800	0.069	0.05	
+362.70788	Unblocked				
+363.12358	Blocked	19.850	0.069	-0.05	
+363.31435	Unblocked				
+364.34231	Blocked	19.900	0.069	0.05	
+364.53091	Unblocked				
+364.94187	Blocked	19.950	0.069	-0.05	
+365.13457	Unblocked				
+366.16340	Blocked	20.000	0.070	0.05	
+366.35385	Unblocked				
+366.76034	Blocked	20.050	0.070	-0.05	
+366.95482	Unblocked				
+367.98449	Blocked	20.100	0.070	0.05	
+368.17683	Unblocked				
+368.57867	Blocked	20.150	0.070	-0.05	
+368.77500	Unblocked				
+369.80549	Blocked	20.200	0.070	0.05	
+369.99987	Unblocked				
+370.39681	Blocked	20.250	0.070	-0.05	
+370.59506	Unblocked				
+371.62650	Blocked	20.300	0.071	0.05	
+371.82277	Unblocked				
+372.21495	Blocked	20.350	0.071	-0.05	
+372.41517	Unblocked				
+373.44745	Blocked	20.400	0.071	0.05	
+373.64565	Unblocked				
+374.03304	Blocked	20.450	0.071	-0.05	
+374.23522	Unblocked				
+375.26831	Blocked	20.500	0.071	0.05	
+375.46859	Unblocked				
+375.85105	Blocked	20.550	0.071	-0.05	
+376.05528	Unblocked				
+377.08919	Blocked	20.600	0.072	0.05	
+377.29155	Unblocked				
+377.66893	Blocked	20.650	0.072	-0.05	
+377.87531	Unblocked				
+378.91012	Blocked	20.700	0.072	0.05	
+379.11462	Unblocked				
+379.48687	Blocked	20.750	0.072	-0.05	
+379.69529	Unblocked				
+380.73101	Blocked	20.800	0.072	0.05	
+380.93767	Unblocked				
+381.30463	Blocked	20.850	0.072	-0.05	
+381.51522	Unblocked				
+382.55177	Blocked	20.900	0.073	0.05	
+382.76064	Unblocked				
+383.12239	Blocked	20.950	0.073	-0.05	
+383.33508	Unblocked				
+384.37262	Blocked	21.000	0.073	0.05	
+384.58366	Unblocked				
+384.93991	Blocked	21.050	0.073	-0.05	
+385.15490	Unblocked				
+386.19331	Blocked	21.100	0.073	0.05	
+386.40667	Unblocked				
+386.75753	Blocked	21.150	0.073	-0.05	
+386.97472	Unblocked				
+388.01404	Blocked	21.200	0.074	0.05	
+388.22963	Unblocked				
+388.57504	Blocked	21.250	0.074	-0.05	
+388.79452	Unblocked				
+389.83464	Blocked	21.300	0.074	0.05	
+390.05252	Unblocked				
+390.39245	Blocked	21.350	0.074	-0.05	
+390.61424	Unblocked				
+391.65527	Blocked	21.400	0.075	0.06	
+391.87566	Unblocked				
+392.20966	Blocked	21.450	0.075	-0.06	
+392.43395	Unblocked				
+393.47584	Blocked	21.500	0.075	0.06	
+393.69902	Unblocked				
+394.02683	Blocked	21.550	0.075	-0.06	
+394.25362	Unblocked				
+395.29655	Blocked	21.600	0.076	0.06	
+395.52221	Unblocked				
+395.84390	Blocked	21.650	0.076	-0.06	
+396.07329	Unblocked				
+397.11715	Blocked	21.700	0.076	0.06	
+397.34554	Unblocked				
+397.66091	Blocked	21.750	0.076	-0.06	
+397.89294	Unblocked				
+398.93776	Blocked	21.800	0.077	0.06	
+399.16877	Unblocked				
+399.47791	Blocked	21.850	0.077	-0.06	
+399.71252	Unblocked				
+400.75823	Blocked	21.900	0.077	0.06	
+400.99214	Unblocked				
+401.29478	Blocked	21.950	0.077	-0.06	
+401.53211	Unblocked				
+402.57873	Blocked	22.000	0.078	0.06	
+402.81560	Unblocked				
+403.11154	Blocked	22.050	0.078	-0.06	
+403.35167	Unblocked				
+404.39920	Blocked	22.100	0.078	0.06	
+404.63909	Unblocked				
+404.92813	Blocked	22.150	0.078	-0.06	
+405.17115	Unblocked				
+406.21964	Blocked	22.200	0.079	0.06	
+406.46260	Unblocked				
+406.74474	Blocked	22.250	0.079	-0.06	
+406.99067	Unblocked				
+408.03999	Blocked	22.300	0.079	0.06	
+408.28601	Unblocked				
+408.56115	Blocked	22.350	0.079	-0.06	
+408.81017	Unblocked				
+409.86033	Blocked	22.400	0.080	0.06	
+410.10967	Unblocked				
+410.37741	Blocked	22.450	0.080	-0.06	
+410.62951	Unblocked				
+411.68064	Blocked	22.500	0.081	0.07	
+411.93341	Unblocked				
+412.19336	Blocked	22.550	0.081	-0.07	
+412.44879	Unblocked				
+413.50088	Blocked	22.600	0.081	0.07	
+413.75729	Unblocked				
+414.00956	Blocked	22.650	0.081	-0.07	
+414.26812	Unblocked				
+415.32115	Blocked	22.700	0.082	0.07	
+415.58120	Unblocked				
+415.82525	Blocked	22.750	0.082	-0.07	
+416.08735	Unblocked				
+417.14131	Blocked	22.800	0.083	0.07	
+417.40513	Unblocked				
+417.64102	Blocked	22.850	0.083	-0.07	
+417.90652	Unblocked				
+418.96144	Blocked	22.900	0.084	0.07	
+419.22921	Unblocked				
+419.45644	Blocked	22.950	0.084	-0.07	
+419.72574	Unblocked				
+420.78159	Blocked	23.000	0.085	0.07	
+421.05384	Unblocked				
+421.27161	Blocked	23.050	0.085	-0.07	
+421.54483	Unblocked				
+422.60171	Blocked	23.100	0.086	0.07	
+422.87842	Unblocked				
+423.08686	Blocked	23.150	0.086	-0.07	
+423.36401	Unblocked				
+424.42175	Blocked	23.200	0.087	0.07	
+424.70297	Unblocked				
+424.90172	Blocked	23.250	0.087	-0.07	
+425.18314	Unblocked				
+426.24180	Blocked	23.300	0.088	0.07	
+426.52814	Unblocked				
+426.71640	Blocked	23.350	0.088	-0.07	
+427.00220	Unblocked				
+428.06179	Blocked	23.400	0.089	0.08	
+428.35357	Unblocked				
+428.53068	Blocked	23.450	0.089	-0.08	
+428.82132	Unblocked				
+429.88170	Blocked	23.500	0.090	0.08	
+430.17946	Unblocked				
+430.34488	Blocked	23.550	0.090	-0.08	
+430.64045	Unblocked				
+431.70168	Blocked	23.600	0.091	0.08	
+432.00551	Unblocked				
+432.15829	Blocked	23.650	0.091	-0.08	
+432.45938	Unblocked				
+433.52164	Blocked	23.700	0.093	0.08	
+433.83329	Unblocked				
+433.97133	Blocked	23.750	0.093	-0.08	
+434.27840	Unblocked				
+435.34147	Blocked	23.800	0.095	0.08	
+435.66312	Unblocked				
+435.78293	Blocked	23.850	0.095	-0.08	
+436.09710	Unblocked				
+437.16123	Blocked	23.900	0.097	0.09	
+437.49405	Unblocked				
+437.59265	Blocked	23.950	0.097	-0.09	
+437.91572	Unblocked				
+438.98090	Blocked	24.000	0.100	0.09	
+439.33153	Unblocked				
+439.40161	Blocked	24.050	0.100	-0.09	
+439.73438	Unblocked				
+440.80085	Blocked	24.100	0.032	-0.01	
+441.55327	Unblocked				
+442.62063	Blocked	24.150	0.027	-0.00	
+443.37193	Unblocked				
+444.44043	Blocked	24.200	0.027	-0.00	
+445.19081	Unblocked				
+446.26028	Blocked	24.250	0.027	0.00	
+447.00953	Unblocked				
+448.07999	Blocked	24.300	0.027	0.00	
+448.82824	Unblocked				
+449.89949	Blocked	24.350	0.027	-0.00	
+450.64691	Unblocked				
+451.71914	Blocked	24.400	0.027	0.00	
+452.46557	Unblocked				
+453.53872	Blocked	24.450	0.027	0.00	
+454.28425	Unblocked				
+455.35820	Blocked	24.500	0.027	-0.00	
+456.10279	Unblocked				
+457.17780	Blocked	24.550	0.027	0.00	
+457.92145	Unblocked				
+458.99732	Blocked	24.600	0.027	0.00	
+459.74007	Unblocked				
+460.81678	Blocked	24.650	0.027	0.00	
+461.55866	Unblocked				
+462.63613	Blocked	24.700	0.027	-0.00	
+463.37738	Unblocked				
+464.45583	Blocked	24.750	0.027	0.00	
+465.19582	Unblocked				
+466.27527	Blocked	24.800	0.027	0.00	
+467.01437	Unblocked				
+468.09451	Blocked	24.850	0.027	-0.00	
+468.83281	Unblocked				
+469.91392	Blocked	24.900	0.027	0.00	
+470.65125	Unblocked				
+471.73332	Blocked	24.950	0.027	0.00	
+472.46972	Unblocked				
+473.55262	Blocked	25.000	0.027	-0.00	
+474.28810	Unblocked				
+475.37213	Blocked	25.050	0.027	0.00	
+476.10645	Unblocked				
+477.19125	Blocked	25.100	0.027	-0.00	
+477.92460	Unblocked				
+479.01047	Blocked	25.150	0.027	-0.00	
+479.74315	Unblocked				
+480.82994	Blocked	25.200	0.027	0.00	
+481.56144	Unblocked				
+482.64900	Blocked	25.250	0.027	-0.00	
+483.37965	Unblocked				
+484.46826	Blocked	25.300	0.027	0.00	
+485.19806	Unblocked				
+486.28749	Blocked	25.350	0.027	0.00	
+487.01621	Unblocked				
+488.10667	Blocked	25.400	0.027	0.00	
+488.83447	Unblocked				
+489.92582	Blocked	25.450	0.027	0.00	
+490.65268	Unblocked				
+491.74491	Blocked	25.500	0.027	-0.00	
+492.47086	Unblocked				
+493.56412	Blocked	25.550	0.027	0.00	
+494.28911	Unblocked				
+495.38328	Blocked	25.600	0.027	0.00	
+496.10737	Unblocked				
+497.20242	Blocked	25.650	0.027	0.00	
+497.92556	Unblocked				
+499.02145	Blocked	25.700	0.027	-0.00	
+499.74379	Unblocked				
+500.84066	Blocked	25.750	0.027	0.00	
+501.56192	Unblocked				
+502.65966	Blocked	25.800	0.027	-0.00	
+503.37997	Unblocked				
+504.47876	Blocked	25.850	0.027	0.00	
+505.19797	Unblocked				
+506.29782	Blocked	25.900	0.027	0.00	
+507.01598	Unblocked				
+508.11679	Blocked	25.950	0.027	0.00	
+508.83412	Unblocked				
+509.93572	Blocked	26.000	0.027	-0.00	
+510.65222	Unblocked				
+511.75475	Blocked	26.050	0.027	0.00	
+512.47022	Unblocked				
+513.57358	Blocked	26.100	0.027	-0.00	
+514.28837	Unblocked				
+515.39260	Blocked	26.150	0.027	0.00	
+516.10635	Unblocked				
+517.21152	Blocked	26.200	0.027	0.00	
+517.92412	Unblocked				
+519.03033	Blocked	26.250	0.027	-0.00	
+519.74204	Unblocked				
+520.84924	Blocked	26.300	0.027	-0.00	
+521.56011	Unblocked				
+522.66815	Blocked	26.350	0.027	-0.00	
+523.37810	Unblocked				
+524.48710	Blocked	26.400	0.027	0.00	
+525.19601	Unblocked				
+526.30598	Blocked	26.450	0.027	-0.00	
+527.01409	Unblocked				
+528.12491	Blocked	26.500	0.027	0.00	
+528.83209	Unblocked				
+529.94382	Blocked	26.550	0.027	-0.00	
+530.65004	Unblocked				
+531.76280	Blocked	26.600	0.027	0.00	
+532.46799	Unblocked				
+533.58168	Blocked	26.650	0.027	0.00	
+534.28593	Unblocked				
+535.40052	Blocked	26.700	0.027	-0.00	
+536.10381	Unblocked				
+537.21947	Blocked	26.750	0.027	0.00	
+537.92175	Unblocked				
+539.03832	Blocked	26.800	0.027	0.00	
+539.73953	Unblocked				
+540.85714	Blocked	26.850	0.027	-0.00	
+541.55741	Unblocked				
+542.67598	Blocked	26.900	0.027	0.00	
+543.37532	Unblocked				
+544.49475	Blocked	26.950	0.027	0.00	
+545.19312	Unblocked				
+546.31349	Blocked	27.000	0.027	-0.00	
+547.01090	Unblocked				
+548.13232	Blocked	27.050	0.027	0.00	
+548.82868	Unblocked				
+549.95106	Blocked	27.100	0.027	0.00	
+550.64659	Unblocked				
+551.76972	Blocked	27.150	0.027	-0.00	
+552.46441	Unblocked				
+553.58843	Blocked	27.200	0.027	-0.00	
+554.28221	Unblocked				
+555.40722	Blocked	27.250	0.027	0.00	
+556.10001	Unblocked				
+557.22590	Blocked	27.300	0.027	-0.00	
+557.91776	Unblocked				
+559.04462	Blocked	27.350	0.027	-0.00	
+559.73546	Unblocked				
+560.86337	Blocked	27.400	0.027	0.00	
+561.55319	Unblocked				
+562.68207	Blocked	27.450	0.027	0.00	
+563.37100	Unblocked				
+564.50072	Blocked	27.500	0.027	-0.00	
+565.18870	Unblocked				
+566.31956	Blocked	27.550	0.027	-0.00	
+567.00640	Unblocked				
+568.13841	Blocked	27.600	0.027	0.00	
+568.82406	Unblocked				
+569.95711	Blocked	27.650	0.027	0.00	
+570.64176	Unblocked				
+571.77571	Blocked	27.700	0.027	-0.00	
+572.45938	Unblocked				
+573.59458	Blocked	27.750	0.027	0.00	
+574.27703	Unblocked				
+575.41325	Blocked	27.800	0.027	0.00	
+576.09455	Unblocked				
+577.23183	Blocked	27.850	0.027	-0.00	
+577.91234	Unblocked				
+579.05056	Blocked	27.900	0.027	0.00	
+579.72977	Unblocked				
+580.86910	Blocked	27.950	0.027	-0.00	
+581.54748	Unblocked				
+582.68777	Blocked	28.000	0.027	0.00	
+583.36505	Unblocked				
+584.50643	Blocked	28.050	0.027	-0.00	
+585.18268	Unblocked				
+586.32519	Blocked	28.100	0.027	0.00	
+587.00034	Unblocked				
+588.14367	Blocked	28.150	0.027	-0.00	
+588.81786	Unblocked				
+589.96232	Blocked	28.200	0.027	0.00	
+590.63530	Unblocked				
+591.78092	Blocked	28.250	0.027	0.00	
+592.45273	Unblocked				
+593.59945	Blocked	28.300	0.027	0.00	
+594.27028	Unblocked				
+595.41794	Blocked	28.350	0.027	-0.00	
+596.08782	Unblocked				
+597.23660	Blocked	28.400	0.027	0.00	
+597.90526	Unblocked				
+599.05514	Blocked	28.450	0.027	0.00	
+599.72268	Unblocked				
+600.87366	Blocked	28.500	0.027	-0.00	
+601.54027	Unblocked				
+602.69226	Blocked	28.550	0.027	0.00	
+603.35788	Unblocked				
+604.51082	Blocked	28.600	0.027	0.00	
+605.17541	Unblocked				
+606.32934	Blocked	28.650	0.027	0.00	
+606.99279	Unblocked				
+608.14780	Blocked	28.700	0.027	-0.00	
+608.81012	Unblocked				
+609.96639	Blocked	28.750	0.027	-0.00	
+610.62732	Unblocked				
+611.78525	Blocked	28.800	0.027	0.00	
+612.44442	Unblocked				
+613.60366	Blocked	28.850	0.027	-0.00	
+614.26167	Unblocked				
+615.42217	Blocked	28.900	0.027	0.00	
+616.07914	Unblocked				
+617.24066	Blocked	28.950	0.027	0.00	
+617.89656	Unblocked				
+619.05908	Blocked	29.000	0.027	-0.00	
+619.71385	Unblocked				
+620.87774	Blocked	29.050	0.027	0.00	
+621.53109	Unblocked				
+622.69631	Blocked	29.100	0.027	0.00	
+623.34840	Unblocked				
+624.51472	Blocked	29.150	0.027	-0.00	
+625.16574	Unblocked				
+626.33321	Blocked	29.200	0.027	0.00	
+626.98311	Unblocked				
+628.15150	Blocked	29.250	0.027	-0.00	
+628.80050	Unblocked				
+629.97023	Blocked	29.300	0.027	0.00	
+630.61780	Unblocked				
+631.78852	Blocked	29.350	0.027	-0.00	
+632.43542	Unblocked				
+633.60719	Blocked	29.400	0.027	0.00	
+634.25249	Unblocked				
+635.42572	Blocked	29.450	0.027	0.00	
+636.07001	Unblocked				
+637.24403	Blocked	29.500	0.027	-0.00	
+637.88722	Unblocked				
+639.06287	Blocked	29.550	0.027	0.00	
+639.70462	Unblocked				
+640.88085	Blocked	29.600	0.027	-0.00	
+641.52206	Unblocked				
+642.69945	Blocked	29.650	0.027	0.00	
+643.33917	Unblocked				
+644.51785	Blocked	29.700	0.027	-0.00	
+645.15659	Unblocked				
+646.33625	Blocked	29.750	0.027	-0.00	
+646.97385	Unblocked				
+648.15475	Blocked	29.800	0.027	0.00	
+648.79091	Unblocked				
+649.97305	Blocked	29.850	0.027	-0.00	
+650.60829	Unblocked				
+651.79141	Blocked	29.900	0.027	-0.00	
+652.42553	Unblocked				
+653.60985	Blocked	29.950	0.027	0.00	
+654.24268	Unblocked				
+655.42817	Blocked	30.000	0.027	0.00	
+656.05995	Unblocked				
+657.24643	Blocked	30.050	0.027	-0.00	
+657.87717	Unblocked				
+659.06508	Blocked	30.100	0.027	0.00	
+659.69440	Unblocked				
+660.88348	Blocked	30.150	0.027	0.00	
+661.51153	Unblocked				
+662.70183	Blocked	30.200	0.027	0.00	
+663.32870	Unblocked				
+664.52013	Blocked	30.250	0.027	-0.00	
+665.14585	Unblocked				
+666.33858	Blocked	30.300	0.027	-0.00	
+666.96301	Unblocked				
+668.15715	Blocked	30.350	0.027	0.00	
+668.77997	Unblocked				
+669.97561	Blocked	30.400	0.027	-0.00	
+670.59685	Unblocked				
+671.79414	Blocked	30.450	0.027	0.00	
+672.41382	Unblocked				
+673.61259	Blocked	30.500	0.027	-0.00	
+674.23072	Unblocked				
+675.43108	Blocked	30.550	0.027	0.00	
+676.04787	Unblocked				
+677.24949	Blocked	30.600	0.027	0.00	
+677.86496	Unblocked				
+679.06783	Blocked	30.650	0.027	0.00	
+679.68215	Unblocked				
+680.88607	Blocked	30.700	0.027	-0.00	
+681.49927	Unblocked				
+682.70447	Blocked	30.750	0.027	0.00	
+683.31622	Unblocked				
+684.52256	Blocked	30.800	0.027	-0.00	
+685.13329	Unblocked				
+686.34148	Blocked	30.850	0.027	0.00	
+686.94949	Unblocked				
+688.16010	Blocked	30.900	0.028	0.00	
+688.76630	Unblocked				
+689.97753	Blocked	30.950	0.027	-0.00	
+690.58358	Unblocked				
+691.79682	Blocked	31.000	0.027	0.00	
+692.40052	Unblocked				
+693.61468	Blocked	31.050	0.028	-0.00	
+694.21752	Unblocked				
+695.43279	Blocked	31.100	0.027	-0.00	
+696.03427	Unblocked				
+697.25153	Blocked	31.150	0.027	0.00	
+697.85131	Unblocked				
+699.06961	Blocked	31.200	0.028	-0.00	
+699.66813	Unblocked				
+700.88778	Blocked	31.250	0.027	-0.00	
+701.48521	Unblocked				
+702.70623	Blocked	31.300	0.027	0.00	
+703.30229	Unblocked				
+704.52463	Blocked	31.350	0.027	0.00	
+705.11898	Unblocked				
+706.34269	Blocked	31.400	0.028	-0.00	
+706.93574	Unblocked				
+708.16096	Blocked	31.450	0.027	0.00	
+708.75267	Unblocked				
+709.97917	Blocked	31.500	0.027	-0.00	
+710.56964	Unblocked				
+711.79752	Blocked	31.550	0.027	0.00	
+712.38668	Unblocked				
+713.61569	Blocked	31.600	0.027	-0.00	
+714.20367	Unblocked				
+715.43405	Blocked	31.650	0.027	0.00	
+716.02044	Unblocked				
+717.25238	Blocked	31.700	0.027	-0.00	
+717.83725	Unblocked				
+719.07073	Blocked	31.750	0.027	0.00	
+719.65412	Unblocked				
+720.88899	Blocked	31.800	0.027	0.00	
+721.47094	Unblocked				
+722.70723	Blocked	31.850	0.027	-0.00	
+723.28789	Unblocked				
+724.52554	Blocked	31.900	0.027	0.00	
+725.10458	Unblocked				
+726.34382	Blocked	31.950	0.027	-0.00	
+726.92117	Unblocked				
+728.16220	Blocked	32.000	0.027	0.00	
+728.73799	Unblocked				
+729.98051	Blocked	32.050	0.027	-0.00	
+730.55488	Unblocked				
+731.79889	Blocked	32.100	0.027	0.00	
+732.37168	Unblocked				
+733.61697	Blocked	32.150	0.027	-0.00	
+734.18860	Unblocked				
+735.43530	Blocked	32.200	0.027	0.00	
+736.00535	Unblocked				
+737.25357	Blocked	32.250	0.027	0.00	
+737.82234	Unblocked				
+739.07172	Blocked	32.300	0.028	0.00	
+739.63924	Unblocked				
+740.88987	Blocked	32.350	0.027	-0.00	
+741.45599	Unblocked				
+742.70810	Blocked	32.400	0.027	-0.00	
+743.27290	Unblocked				
+744.52640	Blocked	32.450	0.027	0.00	
+745.08975	Unblocked				
+746.34453	Blocked	32.500	0.028	-0.00	
+746.90637	Unblocked				
+748.16276	Blocked	32.550	0.027	0.00	
+748.72313	Unblocked				
+749.98097	Blocked	32.600	0.027	-0.00	
+750.53991	Unblocked				
+751.79942	Blocked	32.650	0.027	0.00	
+752.35655	Unblocked				
+753.61752	Blocked	32.700	0.027	-0.00	
+754.17324	Unblocked				
+755.43584	Blocked	32.750	0.027	0.00	
+755.99015	Unblocked				
+757.25404	Blocked	32.800	0.027	-0.00	
+757.80674	Unblocked				
+759.07229	Blocked	32.850	0.027	-0.00	
+759.62371	Unblocked				
+760.89066	Blocked	32.900	0.027	0.00	
+761.44026	Unblocked				
+762.70886	Blocked	32.950	0.028	0.00	
+763.25713	Unblocked				
+764.52702	Blocked	33.000	0.028	0.00	
+765.07351	Unblocked				
+766.34510	Blocked	33.050	0.027	-0.00	
+766.89035	Unblocked				
+768.16363	Blocked	33.100	0.027	0.00	
+768.70692	Unblocked				
+769.98186	Blocked	33.150	0.027	0.00	
+770.52364	Unblocked				
+771.80001	Blocked	33.200	0.028	-0.00	
+772.34039	Unblocked				
+773.61817	Blocked	33.250	0.027	-0.00	
+774.15708	Unblocked				
+775.43649	Blocked	33.300	0.027	0.00	
+775.97372	Unblocked				
+777.25468	Blocked	33.350	0.028	0.00	
+777.79019	Unblocked				
+779.07264	Blocked	33.400	0.028	-0.00	
+779.60675	Unblocked				
+780.89079	Blocked	33.450	0.027	-0.00	
+781.42344	Unblocked				
+782.70939	Blocked	33.500	0.027	0.00	
+783.23963	Unblocked				
+784.52760	Blocked	33.550	0.028	0.00	
+785.05620	Unblocked				
+786.34563	Blocked	33.600	0.027	-0.00	
+786.87293	Unblocked				
+788.16400	Blocked	33.650	0.027	0.00	
+788.68929	Unblocked				
+789.98234	Blocked	33.700	0.027	0.00	
+790.50564	Unblocked				
+791.80063	Blocked	33.750	0.027	0.00	
+792.32211	Unblocked				
+793.61882	Blocked	33.800	0.027	-0.00	
+794.13869	Unblocked				
+795.43715	Blocked	33.850	0.027	-0.00	
+795.95479	Unblocked				
+797.25558	Blocked	33.900	0.027	0.00	
+797.77132	Unblocked				
+799.07358	Blocked	33.950	0.028	-0.00	
+799.58781	Unblocked				
+800.89194	Blocked	34.000	0.027	0.00	
+801.40430	Unblocked				
+802.71010	Blocked	34.050	0.028	-0.00	
+803.22083	Unblocked				
+804.52829	Blocked	34.100	0.028	0.00	
+805.03732	Unblocked				
+806.34645	Blocked	34.150	0.028	0.00	
+806.85390	Unblocked				
+808.16457	Blocked	34.200	0.028	0.00	
+808.67039	Unblocked				
+809.98261	Blocked	34.250	0.027	-0.00	
+810.48691	Unblocked				
+811.80112	Blocked	34.300	0.027	0.00	
+812.30348	Unblocked				
+813.61910	Blocked	34.350	0.028	-0.00	
+814.11989	Unblocked				
+815.43739	Blocked	34.400	0.027	0.00	
+815.93626	Unblocked				
+817.25553	Blocked	34.450	0.028	0.00	
+817.75264	Unblocked				
+819.07354	Blocked	34.500	0.028	-0.00	
+819.56916	Unblocked				
+820.89157	Blocked	34.550	0.028	-0.00	
+821.38559	Unblocked				
+822.70982	Blocked	34.600	0.027	0.00	
+823.20180	Unblocked				
+824.52803	Blocked	34.650	0.027	0.00	
+825.01834	Unblocked				
+826.34618	Blocked	34.700	0.028	0.00	
+826.83461	Unblocked				
+828.16427	Blocked	34.750	0.028	0.00	
+828.65111	Unblocked				
+829.98236	Blocked	34.800	0.027	-0.00	
+830.46735	Unblocked				
+831.80071	Blocked	34.850	0.027	0.00	
+832.28359	Unblocked				
+833.61878	Blocked	34.900	0.027	-0.00	
+834.09987	Unblocked				
+835.43732	Blocked	34.950	0.027	0.00	
+835.91592	Unblocked				
+837.25534	Blocked	35.000	0.028	-0.00	
+837.73251	Unblocked				
+839.07355	Blocked	35.050	0.027	-0.00	
+839.54883	Unblocked				
+840.89181	Blocked	35.100	0.028	0.00	
+841.36477	Unblocked				
+842.70987	Blocked	35.150	0.028	0.00	
+843.18069	Unblocked				
+844.52772	Blocked	35.200	0.028	-0.00	
+844.99676	Unblocked				
+846.34612	Blocked	35.250	0.027	0.00	
+846.81332	Unblocked				
+848.16425	Blocked	35.300	0.028	0.00	
+848.62955	Unblocked				
+849.98215	Blocked	35.350	0.028	-0.00	
+850.44567	Unblocked				
+851.80055	Blocked	35.400	0.027	0.00	
+852.26163	Unblocked				
+853.61874	Blocked	35.450	0.028	0.00	
+854.07813	Unblocked				
+855.43655	Blocked	35.500	0.028	-0.00	
+855.89435	Unblocked				
+857.25489	Blocked	35.550	0.027	0.00	
+857.71038	Unblocked				
+859.07307	Blocked	35.600	0.027	-0.00	
+859.52680	Unblocked				
+860.89133	Blocked	35.650	0.027	0.00	
+861.34288	Unblocked				
+862.70956	Blocked	35.700	0.027	0.00	
+863.15892	Unblocked				
+864.52770	Blocked	35.750	0.027	-0.00	
+864.97530	Unblocked				
+866.34603	Blocked	35.800	0.027	0.00	
+866.79126	Unblocked				
+868.16408	Blocked	35.850	0.028	-0.00	
+868.60736	Unblocked				
+869.98222	Blocked	35.900	0.028	0.00	
+870.42356	Unblocked				
+871.80020	Blocked	35.950	0.028	-0.00	
+872.23978	Unblocked				
+873.61838	Blocked	36.000	0.027	-0.00	
+874.05542	Unblocked				
+875.43674	Blocked	36.050	0.027	-0.00	
+875.87183	Unblocked				
+877.25513	Blocked	36.100	0.027	0.00	
+877.68799	Unblocked				
+879.07315	Blocked	36.150	0.027	-0.00	
+879.50402	Unblocked				
+880.89156	Blocked	36.200	0.027	0.00	
+881.32003	Unblocked				
+882.70992	Blocked	36.250	0.027	0.00	
+883.13594	Unblocked				
+884.52811	Blocked	36.300	0.028	0.00	
+884.95191	Unblocked				
+886.34621	Blocked	36.350	0.027	-0.00	
+886.76809	Unblocked				
+888.16451	Blocked	36.400	0.027	0.00	
+888.58404	Unblocked				
+889.98280	Blocked	36.450	0.027	-0.00	
+890.39989	Unblocked				
+891.80114	Blocked	36.500	0.027	0.00	
+892.21593	Unblocked				
+893.61941	Blocked	36.550	0.027	-0.00	
+894.03170	Unblocked				
+895.43783	Blocked	36.600	0.027	0.00	
+895.84755	Unblocked				
+897.25601	Blocked	36.650	0.027	-0.00	
+897.66339	Unblocked				
+899.07452	Blocked	36.700	0.027	0.00	
+899.47913	Unblocked				
+900.89279	Blocked	36.750	0.027	-0.00	
+901.29519	Unblocked				
+902.71119	Blocked	36.800	0.027	0.00	
+903.11121	Unblocked				
+904.52933	Blocked	36.850	0.028	-0.00	
+904.92696	Unblocked				
+906.34752	Blocked	36.900	0.027	-0.00	
+906.74295	Unblocked				
+908.16572	Blocked	36.950	0.027	-0.00	
+908.55874	Unblocked				
+909.98394	Blocked	37.000	0.028	0.00	
+910.37482	Unblocked				
+911.80202	Blocked	37.050	0.027	-0.00	
+912.19066	Unblocked				
+913.62044	Blocked	37.100	0.027	0.00	
+914.00630	Unblocked				
+915.43881	Blocked	37.150	0.028	0.00	
+915.82208	Unblocked				
+917.25676	Blocked	37.200	0.027	-0.00	
+917.63824	Unblocked				
+919.07527	Blocked	37.250	0.027	0.00	
+919.45405	Unblocked				
+920.89364	Blocked	37.300	0.027	0.00	
+921.27003	Unblocked				
+922.71201	Blocked	37.350	0.028	0.00	
+923.08592	Unblocked				
+924.52985	Blocked	37.400	0.028	0.00	
+924.90191	Unblocked				
+926.34741	Blocked	37.450	0.027	-0.00	
+926.71614	Unblocked				
+928.16640	Blocked	37.500	0.027	0.00	
+928.53416	Unblocked				
+929.98447	Blocked	37.550			
+930.34966	Unblocked				
+Vernier Format 2
+untitled.txt 6/15/2026 13:51:4
+Run 2
+Time	Gate State	Distance	Velocity	Acceleration	
+T	G	D	V	A	
+s		m	m/s	m/s^2	
+
+0.00000	Blocked	0.000			
+0.17456	Unblocked				
+0.60318	Blocked	0.050	0.069	-0.05	
+0.78297	Unblocked				
+1.82392	Blocked	0.100	0.069	0.05	
+2.00342	Unblocked				
+2.42494	Blocked	0.150	0.069	-0.05	
+2.60708	Unblocked				
+3.65121	Blocked	0.200	0.070	0.05	
+3.83902	Unblocked				
+4.24893	Blocked	0.250	0.070	-0.05	
+4.43370	Unblocked				
+5.47181	Blocked	0.300	0.070	0.05	
+5.66436	Unblocked				
+6.06834	Blocked	0.350	0.070	-0.05	
+6.25406	Unblocked				
+7.28253	Blocked	0.400	0.069	0.05	
+7.47487	Unblocked				
+7.88678	Blocked	0.450	0.069	-0.05	
+8.07390	Unblocked				
+9.09784	Blocked	0.500	0.070	0.05	
+9.28934	Unblocked				
+9.69226	Blocked	0.550	0.070	-0.05	
+9.88941	Unblocked				
+10.91367	Blocked	0.600	0.071	0.05	
+11.10879	Unblocked				
+11.49677	Blocked	0.650	0.071	-0.05	
+11.70068	Unblocked				
+12.73432	Blocked	0.700	0.071	0.05	
+12.93044	Unblocked				
+13.31755	Blocked	0.750	0.071	-0.05	
+13.52046	Unblocked				
+14.55902	Blocked	0.800	0.072	0.05	
+14.75596	Unblocked				
+15.13824	Blocked	0.850	0.072	-0.05	
+15.33914	Unblocked				
+16.37717	Blocked	0.900	0.072	0.05	
+16.57285	Unblocked				
+16.95682	Blocked	0.950	0.072	-0.05	
+17.15603	Unblocked				
+18.19546	Blocked	1.000	0.071	0.05	
+18.39123	Unblocked				
+18.77622	Blocked	1.050	0.071	-0.05	
+18.97631	Unblocked				
+20.01641	Blocked	1.100	0.073	0.05	
+20.21869	Unblocked				
+20.58805	Blocked	1.150	0.073	-0.05	
+20.79489	Unblocked				
+21.83511	Blocked	1.200	0.073	0.05	
+22.04330	Unblocked				
+22.40202	Blocked	1.250	0.073	-0.05	
+22.61310	Unblocked				
+23.65476	Blocked	1.300	0.073	0.05	
+23.86504	Unblocked				
+24.22200	Blocked	1.350	0.073	-0.05	
+24.43449	Unblocked				
+25.47417	Blocked	1.400	0.074	0.05	
+25.68795	Unblocked				
+26.03453	Blocked	1.450	0.074	-0.05	
+26.25161	Unblocked				
+27.28920	Blocked	1.500	0.074	0.05	
+27.50577	Unblocked				
+27.84826	Blocked	1.550	0.074	-0.05	
+28.06743	Unblocked				
+29.10810	Blocked	1.600	0.074	0.06	
+29.32742	Unblocked				
+29.66472	Blocked	1.650	0.074	-0.06	
+29.88662	Unblocked				
+30.92890	Blocked	1.700	0.075	0.06	
+31.15328	Unblocked				
+31.47964	Blocked	1.750	0.075	-0.06	
+31.70329	Unblocked				
+32.74717	Blocked	1.800	0.075	0.06	
+32.97022	Unblocked				
+33.29811	Blocked	1.850	0.075	-0.06	
+33.52085	Unblocked				
+34.56708	Blocked	1.900	0.075	0.06	
+34.78929	Unblocked				
+35.11741	Blocked	1.950	0.075	-0.06	
+35.34056	Unblocked				
+36.38687	Blocked	2.000	0.076	0.06	
+36.61252	Unblocked				
+36.92950	Blocked	2.050	0.076	-0.06	
+37.15727	Unblocked				
+38.20436	Blocked	2.100	0.077	0.06	
+38.43220	Unblocked				
+38.74415	Blocked	2.150	0.077	-0.06	
+38.97550	Unblocked				
+40.02463	Blocked	2.200	0.077	0.06	
+40.25603	Unblocked				
+40.56076	Blocked	2.250	0.077	-0.06	
+40.79539	Unblocked				
+41.84396	Blocked	2.300	0.078	0.06	
+42.07947	Unblocked				
+42.37381	Blocked	2.350	0.078	-0.06	
+42.61223	Unblocked				
+43.66077	Blocked	2.400	0.078	0.06	
+43.89803	Unblocked				
+44.19097	Blocked	2.450	0.078	-0.06	
+44.43025	Unblocked				
+45.48007	Blocked	2.500	0.079	0.06	
+45.72036	Unblocked				
+46.00607	Blocked	2.550	0.079	-0.06	
+46.24867	Unblocked				
+47.29915	Blocked	2.600	0.080	0.06	
+47.54499	Unblocked				
+47.81926	Blocked	2.650	0.080	-0.06	
+48.06516	Unblocked				
+49.11639	Blocked	2.700	0.080	0.06	
+49.36539	Unblocked				
+49.63648	Blocked	2.750	0.080	-0.06	
+49.88330	Unblocked				
+50.93648	Blocked	2.800	0.080	0.06	
+51.18644	Unblocked				
+51.45273	Blocked	2.850	0.080	-0.06	
+51.70204	Unblocked				
+52.75483	Blocked	2.900	0.081	0.07	
+53.00903	Unblocked				
+53.26547	Blocked	2.950	0.081	-0.07	
+53.51847	Unblocked				
+54.57255	Blocked	3.000	0.081	0.07	
+54.82835	Unblocked				
+55.08161	Blocked	3.050	0.081	-0.07	
+55.33678	Unblocked				
+56.39258	Blocked	3.100	0.083	0.07	
+56.65279	Unblocked				
+56.89490	Blocked	3.150	0.083	-0.07	
+57.15539	Unblocked				
+58.21130	Blocked	3.200	0.084	0.07	
+58.47600	Unblocked				
+58.70767	Blocked	3.250	0.084	-0.07	
+58.97237	Unblocked				
+60.02908	Blocked	3.300	0.084	0.07	
+60.29468	Unblocked				
+60.52481	Blocked	3.350	0.084	-0.07	
+60.79089	Unblocked				
+61.84866	Blocked	3.400	0.085	0.07	
+62.11957	Unblocked				
+62.33841	Blocked	3.450	0.085	-0.07	
+62.60909	Unblocked				
+63.66652	Blocked	3.500	0.086	0.07	
+63.94218	Unblocked				
+64.15137	Blocked	3.550	0.086	-0.07	
+64.42533	Unblocked				
+65.48471	Blocked	3.600	0.086	0.07	
+65.76290	Unblocked				
+65.96729	Blocked	3.650	0.086	-0.07	
+66.24391	Unblocked				
+67.30406	Blocked	3.700	0.087	0.07	
+67.58826	Unblocked				
+67.78107	Blocked	3.750	0.087	-0.07	
+68.06172	Unblocked				
+69.12193	Blocked	3.800	0.088	0.08	
+69.41064	Unblocked				
+69.59365	Blocked	3.850	0.088	-0.08	
+69.87849	Unblocked				
+70.94007	Blocked	3.900	0.089	0.08	
+71.23239	Unblocked				
+71.40859	Blocked	3.950	0.089	-0.08	
+71.69688	Unblocked				
+72.75944	Blocked	4.000	0.091	0.08	
+73.05943	Unblocked				
+73.21909	Blocked	4.050	0.091	-0.08	
+73.51425	Unblocked				
+74.57738	Blocked	4.100	0.092	0.08	
+74.88402	Unblocked				
+75.03004	Blocked	4.150	0.092	-0.08	
+75.33137	Unblocked				
+76.39600	Blocked	4.200	0.093	0.08	
+76.70705	Unblocked				
+76.84572	Blocked	4.250	0.093	-0.08	
+77.14975	Unblocked				
+78.21500	Blocked	4.300	0.095	0.08	
+78.53537	Unblocked				
+78.65606	Blocked	4.350	0.095	-0.08	
+78.96705	Unblocked				
+80.03256	Blocked	4.400	0.096	0.09	
+80.36119	Unblocked				
+80.46738	Blocked	4.450	0.096	-0.09	
+80.78405	Unblocked				
+81.85085	Blocked	4.500	0.097	0.09	
+82.18680	Unblocked				
+82.27997	Blocked	4.550	0.098	-0.09	
+82.60231	Unblocked				
+83.66980	Blocked	4.600	0.101	0.09	
+84.03908	Unblocked				
+84.08605	Blocked	4.650	0.101	-0.09	
+84.41945	Unblocked				
+85.48759	Blocked	4.700	0.032	-0.01	
+86.23678	Unblocked				
+87.30594	Blocked	4.750	0.027	-0.00	
+88.05487	Unblocked				
+89.12466	Blocked	4.800	0.027	0.00	
+89.87189	Unblocked				
+90.94243	Blocked	4.850	0.027	-0.00	
+91.68930	Unblocked				
+92.76113	Blocked	4.900	0.027	0.00	
+93.50718	Unblocked				
+94.57962	Blocked	4.950	0.028	0.00	
+95.32403	Unblocked				
+96.39737	Blocked	5.000	0.028	-0.00	
+97.14125	Unblocked				
+98.21598	Blocked	5.050	0.027	0.00	
+98.95916	Unblocked				
+100.03427	Blocked	5.100	0.028	0.00	
+100.77617	Unblocked				
+101.85211	Blocked	5.150	0.027	-0.00	
+102.59325	Unblocked				
+103.67087	Blocked	5.200	0.027	0.00	
+104.41077	Unblocked				
+105.48905	Blocked	5.250	0.028	0.00	
+106.22774	Unblocked				
+107.30664	Blocked	5.300	0.028	-0.00	
+108.04541	Unblocked				
+109.12500	Blocked	5.350	0.027	0.00	
+109.86326	Unblocked				
+110.94325	Blocked	5.400	0.027	-0.00	
+111.67983	Unblocked				
+112.76159	Blocked	5.450	0.027	-0.00	
+113.49744	Unblocked				
+114.58007	Blocked	5.500	0.028	0.00	
+115.31438	Unblocked				
+116.39770	Blocked	5.550	0.028	-0.00	
+117.13075	Unblocked				
+118.21567	Blocked	5.600	0.028	-0.00	
+118.94863	Unblocked				
+120.03395	Blocked	5.650	0.028	0.00	
+120.76584	Unblocked				
+121.85199	Blocked	5.700	0.028	0.00	
+122.58270	Unblocked				
+123.66966	Blocked	5.750	0.028	-0.00	
+124.39982	Unblocked				
+125.48786	Blocked	5.800	0.028	0.00	
+126.21685	Unblocked				
+127.30553	Blocked	5.850	0.028	-0.00	
+128.03377	Unblocked				
+129.12350	Blocked	5.900	0.028	-0.00	
+129.85130	Unblocked				
+130.94175	Blocked	5.950	0.028	0.00	
+131.66852	Unblocked				
+132.75948	Blocked	6.000	0.028	-0.00	
+133.48547	Unblocked				
+134.57751	Blocked	6.050	0.028	-0.00	
+135.30291	Unblocked				
+136.39584	Blocked	6.100	0.028	0.00	
+137.11991	Unblocked				
+138.21355	Blocked	6.150	0.028	0.00	
+138.93697	Unblocked				
+140.03121	Blocked	6.200	0.027	-0.00	
+140.75413	Unblocked				
+141.85011	Blocked	6.250	0.027	0.00	
+142.57104	Unblocked				
+143.66759	Blocked	6.300	0.028	-0.00	
+144.38795	Unblocked				
+145.48608	Blocked	6.350	0.028	0.00	
+146.20477	Unblocked				
+147.30304	Blocked	6.400	0.028	-0.00	
+148.02169	Unblocked				
+149.12077	Blocked	6.450	0.028	-0.00	
+149.83869	Unblocked				
+150.93869	Blocked	6.500	0.028	-0.00	
+151.65596	Unblocked				
+152.75672	Blocked	6.550	0.028	0.00	
+153.47282	Unblocked				
+154.57442	Blocked	6.600	0.028	-0.00	
+155.28979	Unblocked				
+156.39217	Blocked	6.650	0.028	0.00	
+157.10698	Unblocked				
+158.20981	Blocked	6.700	0.028	-0.00	
+158.92395	Unblocked				
+160.02792	Blocked	6.750	0.028	0.00	
+160.74103	Unblocked				
+161.84556	Blocked	6.800	0.028	0.00	
+162.55777	Unblocked				
+163.66303	Blocked	6.850	0.028	-0.00	
+164.37433	Unblocked				
+165.48104	Blocked	6.900	0.028	-0.00	
+166.19146	Unblocked				
+167.29920	Blocked	6.950	0.028	0.00	
+168.00906	Unblocked				
+169.11692	Blocked	7.000	0.028	-0.00	
+169.82543	Unblocked				
+170.93474	Blocked	7.050	0.028	0.00	
+171.64191	Unblocked				
+172.75181	Blocked	7.100	0.028	-0.00	
+173.45916	Unblocked				
+174.56933	Blocked	7.150	0.028	0.00	
+175.27614	Unblocked				
+176.38651	Blocked	7.200	0.028	-0.00	
+177.09343	Unblocked				
+178.20468	Blocked	7.250	0.028	0.00	
+178.90845	Unblocked				
+180.02185	Blocked	7.300	0.028	-0.00	
+180.72485	Unblocked				
+181.83972	Blocked	7.350	0.028	-0.00	
+182.54165	Unblocked				
+183.65790	Blocked	7.400	0.028	0.00	
+184.35798	Unblocked				
+185.47554	Blocked	7.450	0.028	-0.00	
+186.17462	Unblocked				
+187.29343	Blocked	7.500	0.028	0.00	
+187.99171	Unblocked				
+189.10984	Blocked	7.550	0.028	-0.00	
+189.80837	Unblocked				
+190.92859	Blocked	7.600	0.027	0.00	
+191.62508	Unblocked				
+192.74667	Blocked	7.650	0.027	-0.00	
+193.44176	Unblocked				
+194.56526	Blocked	7.700	0.028	0.00	
+195.25931	Unblocked				
+196.38241	Blocked	7.750	0.028	0.00	
+197.07600	Unblocked				
+198.19720	Blocked	7.800			
+198.89282	Unblocked				
+Vernier Format 2
+untitled.txt 6/15/2026 13:51:4
+Run 3
+Time	Gate State	Distance	Velocity	Acceleration	
+T	G	D	V	A	
+s		m	m/s	m/s^2	
+
+0.00000	Unblocked	0.000			
+0.96776	Blocked				
+1.11237	Unblocked	0.050	0.061	0.03	
+1.67911	Blocked				
+1.81197	Unblocked	0.100	0.061	-0.03	
+2.79051	Blocked				
+2.92891	Unblocked	0.150	0.060	0.03	
+3.51454	Blocked				
+3.64989	Unblocked	0.200	0.060	-0.03	
+4.60853	Blocked				
+4.74928	Unblocked	0.250	0.061	0.03	
+5.30973	Blocked				
+5.45274	Unblocked	0.300	0.061	-0.03	
+6.43127	Blocked				
+6.56783	Unblocked	0.350	0.059	0.03	
+7.14772	Blocked				
+7.29479	Unblocked	0.400	0.059	-0.03	
+8.26472	Blocked				
+8.40772	Unblocked	0.450	0.062	0.03	
+8.95149	Blocked				
+9.09725	Unblocked	0.500	0.062	-0.03	
+10.08270	Blocked				
+10.22463	Unblocked	0.550	0.060	0.03	
+10.79403	Blocked				
+10.93635	Unblocked	0.600	0.060	-0.03	
+11.91965	Blocked				
+12.06657	Unblocked	0.650	0.062	0.03	
+12.60480	Blocked				
+12.75029	Unblocked	0.700	0.062	-0.03	
+13.72707	Blocked				
+13.87198	Unblocked	0.750	0.060	0.03	
+14.44136	Blocked				
+14.58334	Unblocked	0.800	0.060	-0.03	
+15.56435	Blocked				
+15.70857	Unblocked	0.850	0.062	0.03	
+16.25273	Blocked				
+16.39949	Unblocked	0.900	0.062	-0.03	
+17.37140	Blocked				
+17.51482	Unblocked	0.950	0.061	0.03	
+18.07951	Blocked				
+18.22327	Unblocked	1.000	0.060	-0.03	
+19.20725	Blocked				
+19.34980	Unblocked	1.050	0.061	0.03	
+19.89768	Blocked				
+20.04625	Unblocked	1.100	0.061	-0.03	
+21.01677	Blocked				
+21.16328	Unblocked	1.150	0.061	0.03	
+21.71710	Blocked				
+21.86255	Unblocked	1.200	0.061	-0.03	
+22.85027	Blocked				
+22.99747	Unblocked	1.250	0.061	0.03	
+23.54365	Blocked				
+23.69458	Unblocked	1.300	0.061	-0.03	
+24.66589	Blocked				
+24.81766	Unblocked	1.350	0.062	0.03	
+25.35620	Blocked				
+25.50663	Unblocked	1.400	0.062	-0.03	
+26.49563	Blocked				
+26.64419	Unblocked	1.450	0.061	0.03	
+27.19080	Blocked				
+27.34216	Unblocked	1.500	0.061	-0.03	
+28.31806	Blocked				
+28.47161	Unblocked	1.550	0.062	0.03	
+29.00173	Blocked				
+29.15287	Unblocked	1.600	0.062	-0.03	
+30.13828	Blocked				
+30.28765	Unblocked	1.650	0.061	0.03	
+30.83703	Blocked				
+30.98768	Unblocked	1.700	0.061	-0.03	
+31.96669	Blocked				
+32.11874	Unblocked	1.750	0.063	0.03	
+32.64680	Blocked				
+32.79872	Unblocked	1.800	0.063	-0.03	
+33.77990	Blocked				
+33.93032	Unblocked	1.850	0.061	0.03	
+34.47803	Blocked				
+34.62904	Unblocked	1.900	0.061	-0.03	
+35.61317	Blocked				
+35.76662	Unblocked	1.950	0.062	0.03	
+36.29034	Blocked				
+36.44724	Unblocked	2.000	0.062	-0.03	
+37.42483	Blocked				
+37.57757	Unblocked	2.050	0.062	0.03	
+38.11662	Blocked				
+38.27047	Unblocked	2.100	0.061	-0.03	
+39.25814	Blocked				
+39.41349	Unblocked	2.150	0.062	0.03	
+39.93861	Blocked				
+40.09642	Unblocked	2.200	0.062	-0.03	
+41.07125	Blocked				
+41.22966	Unblocked	2.250	0.062	0.03	
+41.75635	Blocked				
+41.91288	Unblocked	2.300	0.062	-0.03	
+42.90292	Blocked				
+43.05883	Unblocked	2.350	0.062	0.03	
+43.58650	Blocked				
+43.74473	Unblocked	2.400	0.062	-0.03	
+44.72167	Blocked				
+44.88114	Unblocked	2.450	0.063	0.03	
+45.39976	Blocked				
+45.55698	Unblocked	2.500	0.063	-0.03	
+46.54474	Blocked				
+46.70095	Unblocked	2.550	0.062	0.03	
+47.23237	Blocked				
+47.39022	Unblocked	2.600	0.062	-0.03	
+48.37036	Blocked				
+48.53041	Unblocked	2.650	0.063	0.03	
+49.04272	Blocked				
+49.20223	Unblocked	2.700	0.063	-0.03	
+50.18603	Blocked				
+50.34434	Unblocked	2.750	0.062	0.03	
+50.87387	Blocked				
+51.03272	Unblocked	2.800	0.062	-0.03	
+52.01752	Blocked				
+52.17846	Unblocked	2.850	0.063	0.03	
+52.68728	Blocked				
+52.84958	Unblocked	2.900	0.063	-0.03	
+53.83062	Blocked				
+53.99194	Unblocked	2.950	0.062	0.03	
+54.51356	Blocked				
+54.67416	Unblocked	3.000	0.062	-0.03	
+55.66323	Blocked				
+55.82590	Unblocked	3.050	0.063	0.03	
+56.33355	Blocked				
+56.49889	Unblocked	3.100	0.063	-0.03	
+57.47768	Blocked				
+57.64183	Unblocked	3.150	0.063	0.03	
+58.15262	Blocked				
+58.31596	Unblocked	3.200	0.063	-0.03	
+59.30738	Blocked				
+59.46918	Unblocked	3.250	0.063	0.03	
+59.98162	Blocked				
+60.14593	Unblocked	3.300	0.063	-0.03	
+61.12653	Blocked				
+61.29286	Unblocked	3.350	0.063	0.03	
+61.79393	Blocked				
+61.96009	Unblocked	3.400	0.063	-0.03	
+62.94843	Blocked				
+63.11206	Unblocked	3.450	0.062	0.03	
+63.62517	Blocked				
+63.79117	Unblocked	3.500	0.062	-0.03	
+64.77391	Blocked				
+64.94198	Unblocked	3.550	0.064	0.04	
+65.43662	Blocked				
+65.60437	Unblocked	3.600	0.064	-0.04	
+66.58939	Blocked				
+66.75680	Unblocked	3.650	0.063	0.03	
+67.26315	Blocked				
+67.43137	Unblocked	3.700	0.063	-0.03	
+68.42072	Blocked				
+68.58657	Unblocked	3.750	0.064	0.04	
+69.07941	Blocked				
+69.25053	Unblocked	3.800	0.064	-0.04	
+70.23411	Blocked				
+70.40311	Unblocked	3.850	0.063	0.03	
+70.90340	Blocked				
+71.07394	Unblocked	3.900	0.063	-0.03	
+72.06299	Blocked				
+72.23446	Unblocked	3.950	0.064	0.04	
+72.72508	Blocked				
+72.89843	Unblocked	4.000	0.064	-0.04	
+73.87997	Blocked				
+74.05122	Unblocked	4.050	0.064	0.04	
+74.54423	Blocked				
+74.71427	Unblocked	4.100	0.064	-0.04	
+75.70703	Blocked				
+75.87548	Unblocked	4.150	0.063	0.03	
+76.37277	Blocked				
+76.54372	Unblocked	4.200	0.063	-0.03	
+77.52841	Blocked				
+77.70135	Unblocked	4.250	0.064	0.04	
+78.18464	Blocked				
+78.35893	Unblocked	4.300	0.064	-0.04	
+79.34702	Blocked				
+79.52167	Unblocked	4.350	0.063	0.03	
+80.01438	Blocked				
+80.18824	Unblocked	4.400	0.063	-0.04	
+81.17469	Blocked				
+81.35198	Unblocked	4.450	0.065	0.04	
+81.82699	Blocked				
+82.00416	Unblocked	4.500	0.065	-0.04	
+82.99091	Blocked				
+83.16597	Unblocked	4.550	0.064	0.04	
+83.65533	Blocked				
+83.82926	Unblocked	4.600	0.064	-0.04	
+84.82080	Blocked				
+84.99714	Unblocked	4.650	0.064	0.04	
+85.47340	Blocked				
+85.65059	Unblocked	4.700	0.064	-0.04	
+86.63593	Blocked				
+86.81375	Unblocked	4.750	0.064	0.04	
+87.29493	Blocked				
+87.47065	Unblocked	4.800	0.064	-0.04	
+88.46441	Blocked				
+88.64127	Unblocked	4.850	0.064	0.04	
+89.11946	Blocked				
+89.29669	Unblocked	4.900	0.064	-0.04	
+90.28324	Blocked				
+90.46253	Unblocked	4.950	0.065	0.04	
+90.93497	Blocked				
+91.11350	Unblocked	5.000	0.065	-0.04	
+92.10643	Blocked				
+92.28485	Unblocked	5.050	0.064	0.04	
+92.76307	Blocked				
+92.94218	Unblocked	5.100	0.064	-0.04	
+93.93016	Blocked				
+94.11269	Unblocked	5.150	0.065	0.04	
+94.57632	Blocked				
+94.75754	Unblocked	5.200	0.065	-0.04	
+95.74954	Blocked				
+95.92695	Unblocked	5.250	0.064	0.04	
+96.40681	Blocked				
+96.58354	Unblocked	5.300	0.064	-0.04	
+97.57814	Blocked				
+97.75727	Unblocked	5.350	0.065	0.04	
+98.21916	Blocked				
+98.40446	Unblocked	5.400	0.065	-0.04	
+99.39173	Blocked				
+99.57567	Unblocked	5.450	0.065	0.04	
+100.04315	Blocked				
+100.22695	Unblocked	5.500	0.065	-0.04	
+101.21967	Blocked				
+101.40574	Unblocked	5.550	0.065	0.04	
+101.86543	Blocked				
+102.04915	Unblocked	5.600	0.065	-0.04	
+103.03829	Blocked				
+103.22270	Unblocked	5.650	0.065	0.04	
+103.68426	Blocked				
+103.86742	Unblocked	5.700	0.065	-0.04	
+104.86376	Blocked				
+105.04755	Unblocked	5.750	0.065	0.04	
+105.50852	Blocked				
+105.69543	Unblocked	5.800	0.065	-0.04	
+106.68390	Blocked				
+106.87338	Unblocked	5.850	0.066	0.04	
+107.32357	Blocked				
+107.51159	Unblocked	5.900	0.066	-0.04	
+108.50516	Blocked				
+108.69284	Unblocked	5.950	0.065	0.04	
+109.15208	Blocked				
+109.33796	Unblocked	6.000	0.065	-0.04	
+110.33073	Blocked				
+110.52149	Unblocked	6.050	0.066	0.04	
+110.96606	Blocked				
+111.15520	Unblocked	6.100	0.066	-0.04	
+112.14865	Blocked				
+112.33715	Unblocked	6.150	0.065	0.04	
+112.79131	Blocked				
+112.97985	Unblocked	6.200	0.065	-0.04	
+113.97610	Blocked				
+114.16703	Unblocked	6.250	0.066	0.04	
+114.60844	Blocked				
+114.80217	Unblocked	6.300	0.066	-0.04	
+115.79240	Blocked				
+115.98574	Unblocked	6.350	0.066	0.04	
+116.43111	Blocked				
+116.62164	Unblocked	6.400	0.066	-0.04	
+117.61925	Blocked				
+117.81127	Unblocked	6.450	0.066	0.04	
+118.25474	Blocked				
+118.44692	Unblocked	6.500	0.066	-0.04	
+119.43879	Blocked				
+119.63326	Unblocked	6.550	0.066	0.04	
+120.07076	Blocked				
+120.26498	Unblocked	6.600	0.066	-0.04	
+121.26072	Blocked				
+121.45597	Unblocked	6.650	0.066	0.04	
+121.89826	Blocked				
+122.09118	Unblocked	6.700	0.066	-0.04	
+123.08507	Blocked				
+123.28166	Unblocked	6.750	0.067	0.04	
+123.71208	Blocked				
+123.90894	Unblocked	6.800	0.067	-0.04	
+124.90345	Blocked				
+125.09922	Unblocked	6.850	0.066	0.04	
+125.53931	Blocked				
+125.73412	Unblocked	6.900	0.066	-0.04	
+126.72981	Blocked				
+126.92834	Unblocked	6.950	0.067	0.04	
+127.35597	Blocked				
+127.55351	Unblocked	7.000	0.067	-0.04	
+128.54746	Blocked				
+128.74563	Unblocked	7.050	0.066	0.04	
+129.17916	Blocked				
+129.37505	Unblocked	7.100	0.066	-0.04	
+130.37458	Blocked				
+130.57248	Unblocked	7.150	0.067	0.04	
+130.99905	Blocked				
+131.19918	Unblocked	7.200	0.067	-0.04	
+132.19227	Blocked				
+132.39391	Unblocked	7.250	0.067	0.04	
+132.81884	Blocked				
+133.01711	Unblocked	7.300	0.067	-0.04	
+134.01677	Blocked				
+134.21678	Unblocked	7.350	0.067	0.04	
+134.64282	Blocked				
+134.84307	Unblocked	7.400	0.067	-0.04	
+135.83852	Blocked				
+136.04133	Unblocked	7.450	0.067	0.04	
+136.45681	Blocked				
+136.66055	Unblocked	7.500	0.067	-0.04	
+137.65848	Blocked				
+137.86059	Unblocked	7.550	0.067	0.04	
+138.28307	Blocked				
+138.48610	Unblocked	7.600	0.067	-0.04	
+139.48282	Blocked				
+139.68952	Unblocked	7.650	0.068	0.04	
+140.09921	Blocked				
+140.30386	Unblocked	7.700	0.068	-0.04	
+141.30175	Blocked				
+141.50694	Unblocked	7.750	0.067	0.04	
+141.92215	Blocked				
+142.12694	Unblocked	7.800	0.067	-0.04	
+143.12767	Blocked				
+143.33334	Unblocked	7.850	0.068	0.04	
+143.74064	Blocked				
+143.94980	Unblocked	7.900	0.068	-0.04	
+144.94401	Blocked				
+145.15370	Unblocked	7.950	0.068	0.04	
+145.56348	Blocked				
+145.76803	Unblocked	8.000	0.068	-0.04	
+146.76964	Blocked				
+146.97915	Unblocked	8.050	0.068	0.04	
+147.38455	Blocked				
+147.59239	Unblocked	8.100	0.068	-0.04	
+148.59089	Blocked				
+148.80143	Unblocked	8.150	0.068	0.04	
+149.20045	Blocked				
+149.41126	Unblocked	8.200	0.068	-0.04	
+150.41217	Blocked				
+150.62140	Unblocked	8.250	0.068	0.04	
+151.02638	Blocked				
+151.23672	Unblocked	8.300	0.068	-0.04	
+152.23531	Blocked				
+152.44902	Unblocked	8.350	0.069	0.05	
+152.84220	Blocked				
+153.05451	Unblocked	8.400	0.069	-0.05	
+154.05476	Blocked				
+154.26758	Unblocked	8.450	0.068	0.04	
+154.66547	Blocked				
+154.87780	Unblocked	8.500	0.068	-0.04	
+155.88071	Blocked				
+156.09360	Unblocked	8.550	0.069	0.05	
+156.48338	Blocked				
+156.69976	Unblocked	8.600	0.069	-0.05	
+157.69758	Blocked				
+157.91284	Unblocked	8.650	0.069	0.05	
+158.30634	Blocked				
+158.51943	Unblocked	8.700	0.069	-0.05	
+159.52241	Blocked				
+159.73978	Unblocked	8.750	0.069	0.05	
+160.12591	Blocked				
+160.34238	Unblocked	8.800	0.069	-0.05	
+161.34289	Blocked				
+161.56173	Unblocked	8.850	0.069	0.05	
+161.94355	Blocked				
+162.16172	Unblocked	8.900	0.069	-0.05	
+163.16472	Blocked				
+163.38097	Unblocked	8.950	0.069	0.05	
+163.77002	Blocked				
+163.98605	Unblocked	9.000	0.069	-0.05	
+164.98672	Blocked				
+165.20872	Unblocked	9.050	0.070	0.05	
+165.58411	Blocked				
+165.80309	Unblocked	9.100	0.070	-0.05	
+166.80778	Blocked				
+167.02901	Unblocked	9.150	0.069	0.05	
+167.40695	Blocked				
+167.62807	Unblocked	9.200	0.069	-0.05	
+168.63178	Blocked				
+168.85491	Unblocked	9.250	0.070	0.05	
+169.22501	Blocked				
+169.44831	Unblocked	9.300	0.070	-0.05	
+170.44928	Blocked				
+170.67365	Unblocked	9.350	0.070	0.05	
+171.04735	Blocked				
+171.26901	Unblocked	9.400	0.070	-0.05	
+172.27382	Blocked				
+172.49942	Unblocked	9.450	0.070	0.05	
+172.86554	Blocked				
+173.09113	Unblocked	9.500	0.070	-0.05	
+174.09341	Blocked				
+174.32086	Unblocked	9.550	0.070	0.05	
+174.68478	Blocked				
+174.91092	Unblocked	9.600	0.070	-0.05	
+175.91623	Blocked				
+176.14349	Unblocked	9.650	0.070	0.05	
+176.50787	Blocked				
+176.73484	Unblocked	9.700	0.070	-0.05	
+177.73745	Blocked				
+177.96784	Unblocked	9.750	0.071	0.05	
+178.32437	Blocked				
+178.55309	Unblocked	9.800	0.071	-0.05	
+179.55835	Blocked				
+179.78824	Unblocked	9.850	0.071	0.05	
+180.14833	Blocked				
+180.37719	Unblocked	9.900	0.071	-0.05	
+181.38181	Blocked				
+181.61447	Unblocked	9.950	0.071	0.05	
+181.96461	Blocked				
+182.19633	Unblocked	10.000	0.071	-0.05	
+183.19991	Blocked				
+183.43142	Unblocked	10.050	0.071	0.05	
+183.78901	Blocked				
+184.01879	Unblocked	10.100	0.071	-0.05	
+185.02461	Blocked				
+185.25791	Unblocked	10.150	0.071	0.05	
+185.60754	Blocked				
+185.84031	Unblocked	10.200	0.071	-0.05	
+186.84379	Blocked				
+187.07800	Unblocked	10.250	0.071	0.05	
+187.42818	Blocked				
+187.66047	Unblocked	10.300	0.071	-0.05	
+188.66726	Blocked				
+188.90202	Unblocked	10.350	0.071	0.05	
+189.24954	Blocked				
+189.48370	Unblocked	10.400	0.071	-0.05	
+190.48803	Blocked				
+190.72518	Unblocked	10.450	0.072	0.05	
+191.06736	Blocked				
+191.30263	Unblocked	10.500	0.072	-0.05	
+192.30946	Blocked				
+192.54657	Unblocked	10.550	0.072	0.05	
+192.89082	Blocked				
+193.12656	Unblocked	10.600	0.072	-0.05	
+194.13156	Blocked				
+194.37131	Unblocked	10.650	0.072	0.05	
+194.70671	Blocked				
+194.94541	Unblocked	10.700	0.072	-0.05	
+195.95179	Blocked				
+196.19153	Unblocked	10.750	0.072	0.05	
+196.53009	Blocked				
+196.76824	Unblocked	10.800	0.072	-0.05	
+197.77495	Blocked				
+198.01700	Unblocked	10.850	0.073	0.05	
+198.34704	Blocked				
+198.58808	Unblocked	10.900	0.073	-0.05	
+199.59492	Blocked				
+199.83760	Unblocked	10.950	0.072	0.05	
+200.16958	Blocked				
+200.41006	Unblocked	11.000	0.072	-0.05	
+201.41751	Blocked				
+201.66002	Unblocked	11.050	0.073	0.05	
+201.98898	Blocked				
+202.23146	Unblocked	11.100	0.073	-0.05	
+203.23784	Blocked				
+203.48288	Unblocked	11.150	0.073	0.05	
+203.80631	Blocked				
+204.05049	Unblocked	11.200	0.073	-0.05	
+205.06071	Blocked				
+205.30652	Unblocked	11.250	0.073	0.05	
+205.63014	Blocked				
+205.87451	Unblocked	11.300	0.073	-0.05	
+206.88259	Blocked				
+207.13188	Unblocked	11.350	0.074	0.05	
+207.44766	Blocked				
+207.69422	Unblocked	11.400	0.074	-0.05	
+208.70229	Blocked				
+208.95019	Unblocked	11.450	0.073	0.05	
+209.26977	Blocked				
+209.51630	Unblocked	11.500	0.073	-0.05	
+210.52660	Blocked				
+210.77865	Unblocked	11.550	0.074	0.05	
+211.08882	Blocked				
+211.33751	Unblocked	11.600	0.074	-0.05	
+212.34553	Blocked				
+212.59763	Unblocked	11.650	0.074	0.05	
+212.90976	Blocked				
+213.15861	Unblocked	11.700	0.074	-0.05	
+214.16801	Blocked				
+214.42099	Unblocked	11.750	0.074	0.05	
+214.72657	Blocked				
+214.97913	Unblocked	11.800	0.074	-0.05	
+215.98878	Blocked				
+216.24365	Unblocked	11.850	0.075	0.06	
+216.54689	Blocked				
+216.79950	Unblocked	11.900	0.075	-0.06	
+217.81175	Blocked				
+218.06812	Unblocked	11.950	0.075	0.06	
+218.36972	Blocked				
+218.62313	Unblocked	12.000	0.075	-0.06	
+219.63211	Blocked				
+219.89079	Unblocked	12.050	0.075	0.06	
+220.18421	Blocked				
+220.44120	Unblocked	12.100	0.075	-0.06	
+221.45353	Blocked				
+221.71241	Unblocked	12.150	0.075	0.06	
+222.00778	Blocked				
+222.26441	Unblocked	12.200	0.075	-0.06	
+223.27572	Blocked				
+223.53820	Unblocked	12.250	0.076	0.06	
+223.82351	Blocked				
+224.08375	Unblocked	12.300	0.076	-0.06	
+225.09539	Blocked				
+225.35738	Unblocked	12.350	0.076	0.06	
+225.64550	Blocked				
+225.90523	Unblocked	12.400	0.076	-0.06	
+226.91863	Blocked				
+227.17807	Unblocked	12.450	0.075	0.06	
+227.46519	Blocked				
+227.72819	Unblocked	12.500	0.075	-0.06	
+228.73816	Blocked				
+229.00562	Unblocked	12.550	0.076	0.06	
+229.28172	Blocked				
+229.54803	Unblocked	12.600	0.076	-0.06	
+230.55843	Blocked				
+230.82268	Unblocked	12.650	0.076	0.06	
+231.10207	Blocked				
+231.36687	Unblocked	12.700	0.076	-0.06	
+232.38334	Blocked				
+232.64918	Unblocked	12.750	0.077	0.06	
+232.92709	Blocked				
+233.19014	Unblocked	12.800	0.077	-0.06	
+234.20508	Blocked				
+234.47755	Unblocked	12.850	0.077	0.06	
+234.74454	Blocked				
+235.01367	Unblocked	12.900	0.077	-0.06	
+236.02410	Blocked				
+236.30232	Unblocked	12.950	0.078	0.06	
+236.55720	Blocked				
+236.83039	Unblocked	13.000	0.078	-0.06	
+237.84494	Blocked				
+238.11572	Unblocked	13.050	0.077	0.06	
+238.38497	Blocked				
+238.65318	Unblocked	13.100	0.077	-0.06	
+239.66923	Blocked				
+239.94559	Unblocked	13.150	0.078	0.06	
+240.20094	Blocked				
+240.47516	Unblocked	13.200	0.078	-0.06	
+241.48781	Blocked				
+241.77086	Unblocked	13.250	0.079	0.06	
+242.01595	Blocked				
+242.29417	Unblocked	13.300	0.079	-0.06	
+243.30977	Blocked				
+243.59003	Unblocked	13.350	0.079	0.06	
+243.84013	Blocked				
+244.11525	Unblocked	13.400	0.079	-0.06	
+245.13248	Blocked				
+245.41191	Unblocked	13.450	0.079	0.06	
+245.65997	Blocked				
+245.93727	Unblocked	13.500	0.079	-0.06	
+246.95401	Blocked				
+247.23819	Unblocked	13.550	0.079	0.06	
+247.47611	Blocked				
+247.75965	Unblocked	13.600	0.079	-0.06	
+248.77403	Blocked				
+249.06510	Unblocked	13.650	0.081	0.07	
+249.29411	Blocked				
+249.57771	Unblocked	13.700	0.081	-0.07	
+250.59502	Blocked				
+250.88152	Unblocked	13.750	0.080	0.06	
+251.11901	Blocked				
+251.40024	Unblocked	13.800	0.080	-0.06	
+252.41762	Blocked				
+252.70710	Unblocked	13.850	0.081	0.06	
+252.93399	Blocked				
+253.22182	Unblocked	13.900	0.081	-0.06	
+254.23759	Blocked				
+254.53157	Unblocked	13.950	0.081	0.07	
+254.75411	Blocked				
+255.04179	Unblocked	14.000	0.081	-0.07	
+256.06009	Blocked				
+256.35919	Unblocked	14.050	0.082	0.07	
+256.57232	Blocked				
+256.86182	Unblocked	14.100	0.082	-0.07	
+257.88009	Blocked				
+258.17694	Unblocked	14.150	0.082	0.07	
+258.39382	Blocked				
+258.68310	Unblocked	14.200	0.082	-0.07	
+259.70391	Blocked				
+259.99670	Unblocked	14.250	0.081	0.07	
+260.20731	Blocked				
+260.50664	Unblocked	14.300	0.081	-0.07	
+261.52328	Blocked				
+261.82621	Unblocked	14.350	0.083	0.07	
+262.02662	Blocked				
+262.32463	Unblocked	14.400	0.083	-0.07	
+263.34343	Blocked				
+263.64897	Unblocked	14.450	0.083	0.07	
+263.85225	Blocked				
+264.14611	Unblocked	14.500	0.083	-0.07	
+265.16700	Blocked				
+265.46961	Unblocked	14.550	0.083	0.07	
+265.66425	Blocked				
+265.96826	Unblocked	14.600	0.083	-0.07	
+266.98689	Blocked				
+267.29209	Unblocked	14.650	0.083	0.07	
+267.48565	Blocked				
+267.78921	Unblocked	14.700	0.083	-0.07	
+268.80764	Blocked				
+269.12294	Unblocked	14.750	0.085	0.07	
+269.30725	Blocked				
+269.60853	Unblocked	14.800	0.085	-0.07	
+270.62874	Blocked				
+270.94338	Unblocked	14.850	0.085	0.07	
+271.12356	Blocked				
+271.43022	Unblocked	14.900	0.085	-0.07	
+272.45138	Blocked				
+272.76408	Unblocked	14.950	0.085	0.07	
+272.94031	Blocked				
+273.25233	Unblocked	15.000	0.085	-0.07	
+274.27153	Blocked				
+274.59092	Unblocked	15.050	0.086	0.07	
+274.75969	Blocked				
+275.07160	Unblocked	15.100	0.086	-0.07	
+276.09233	Blocked				
+276.41315	Unblocked	15.150	0.087	0.07	
+276.58133	Blocked				
+276.89310	Unblocked	15.200	0.087	-0.07	
+277.91407	Blocked				
+278.24259	Unblocked	15.250	0.088	0.08	
+278.39642	Blocked				
+278.71299	Unblocked	15.300	0.088	-0.08	
+279.73524	Blocked				
+280.06210	Unblocked	15.350	0.088	0.08	
+280.21524	Blocked				
+280.53519	Unblocked	15.400	0.088	-0.08	
+281.55753	Blocked				
+281.88813	Unblocked	15.450	0.089	0.08	
+282.03236	Blocked				
+282.35575	Unblocked	15.500	0.089	-0.08	
+283.37719	Blocked				
+283.71073	Unblocked	15.550	0.089	0.08	
+283.85340	Blocked				
+284.17578	Unblocked	15.600	0.090	-0.08	
+285.20060	Blocked				
+285.54735	Unblocked	15.650	0.093	0.08	
+285.66406	Blocked				
+285.99747	Unblocked	15.700	0.093	-0.08	
+287.02231	Blocked				
+287.37223	Unblocked	15.750	0.094	0.08	
+287.48412	Blocked				
+287.81789	Unblocked	15.800	0.094	-0.08	
+288.84101	Blocked				
+289.19896	Unblocked	15.850	0.095	0.08	
+289.29451	Blocked				
+289.63978	Unblocked	15.900	0.095	-0.08	
+290.66345	Blocked				
+291.03334	Unblocked	15.950	0.098	0.09	
+291.10956	Blocked				
+291.46056	Unblocked	16.000	0.098	-0.09	
+292.48427	Blocked				
+292.85400	Unblocked	16.050	0.098	0.09	
+292.93438	Blocked				
+293.28127	Unblocked	16.100	0.098	-0.09	
+294.30565	Blocked				
+294.68735	Unblocked	16.150	0.101	0.09	
+294.73884	Blocked				
+295.10107	Unblocked	16.200	0.104	-0.08	
+296.12729	Blocked				
+296.92298	Unblocked	16.250	0.027	0.00	
+297.94901	Blocked				
+298.74365	Unblocked	16.300	0.027	0.00	
+299.76832	Blocked				
+300.56300	Unblocked	16.350	0.027	-0.00	
+301.59002	Blocked				
+302.38496	Unblocked	16.400	0.027	0.00	
+303.41058	Blocked				
+304.20665	Unblocked	16.450	0.027	0.00	
+305.22650	Blocked				
+306.02534	Unblocked	16.500	0.027	-0.00	
+307.05029	Blocked				
+307.84775	Unblocked	16.550	0.027	0.00	
+308.87276	Blocked				
+309.66822	Unblocked	16.600	0.027	0.00	
+310.69222	Blocked				
+311.48621	Unblocked	16.650	0.027	-0.00	
+312.51270	Blocked				
+313.30803	Unblocked	16.700	0.027	-0.00	
+314.33649	Blocked				
+315.12998	Unblocked	16.750	0.027	0.00	
+316.15567	Blocked				
+316.94740	Unblocked	16.800	0.027	-0.00	
+317.97654	Blocked				
+318.76922	Unblocked	16.850	0.027	0.00	
+319.79954	Blocked				
+320.59042	Unblocked	16.900			
+321.62009	Blocked				
+Vernier Format 2
+untitled.txt 6/15/2026 13:51:4
+Run 4
+Time	Gate State	Distance	Velocity	Acceleration	
+T	G	D	V	A	
+s		m	m/s	m/s^2	
+
+0.00000	Unblocked	0.000			
+1.05324	Blocked				
+1.27214	Unblocked	0.050	0.069	0.05	
+1.66085	Blocked				
+1.87527	Unblocked	0.100	0.069	-0.04	
+2.90514	Blocked				
+3.00008	Unblocked	0.150	0.064	0.03	
+3.51421	Blocked				
+3.66682	Unblocked	0.200	0.063	-0.04	
+4.64463	Blocked				
+4.84230	Unblocked	0.250	0.069	0.05	
+5.23770	Blocked				
+5.44629	Unblocked	0.300	0.069	-0.05	
+6.46900	Blocked				
+6.67481	Unblocked	0.350	0.070	0.05	
+7.06096	Blocked				
+7.26988	Unblocked	0.400	0.070	-0.05	
+8.53301	Blocked				
+8.80264	Unblocked	0.450			
+Vernier Format 2
+untitled.txt 6/15/2026 13:51:4
+Run 5
+Time	Gate State	Distance	Velocity	Acceleration	
+T	G	D	V	A	
+s		m	m/s	m/s^2	
+
+0.00000	Blocked	0.000			
+0.14032	Unblocked				
+1.12710	Blocked	0.050	0.062	0.03	
+1.27273	Unblocked				
+1.81418	Blocked	0.100	0.062	-0.03	
+1.95557	Unblocked				
+2.94179	Blocked	0.150	0.063	0.03	
+3.09231	Unblocked				
+3.61732	Blocked	0.200	0.063	-0.03	
+3.75952	Unblocked				
+4.74167	Blocked	0.250	0.063	0.03	
+4.88982	Unblocked				
+5.41962	Blocked	0.300	0.063	-0.03	
+5.55982	Unblocked				
+6.54311	Blocked	0.350	0.063	0.03	
+6.69295	Unblocked				
+7.22141	Blocked	0.400	0.063	-0.03	
+7.36616	Unblocked				
+8.35505	Blocked	0.450	0.063	0.03	
+8.50681	Unblocked				
+9.03458	Blocked	0.500	0.063	-0.03	
+9.17867	Unblocked				
+10.16906	Blocked	0.550	0.063	0.03	
+10.31657	Unblocked				
+10.84119	Blocked	0.600	0.063	-0.03	
+10.99087	Unblocked				
+11.98095	Blocked	0.650	0.064	0.04	
+12.13210	Unblocked				
+12.64120	Blocked	0.700	0.064	-0.04	
+12.79764	Unblocked				
+13.79097	Blocked	0.750	0.065	0.04	
+13.94533	Unblocked				
+14.44279	Blocked	0.800	0.065	-0.04	
+14.60230	Unblocked				
+15.59426	Blocked	0.850	0.065	0.04	
+15.74760	Unblocked				
+16.24637	Blocked	0.900	0.065	-0.04	
+16.40731	Unblocked				
+17.40100	Blocked	0.950	0.065	0.04	
+17.55552	Unblocked				
+18.05445	Blocked	1.000	0.064	-0.04	
+18.21528	Unblocked				
+19.21106	Blocked	1.050	0.064	0.04	
+19.36639	Unblocked				
+19.86497	Blocked	1.100	0.064	-0.04	
+20.02505	Unblocked				
+21.02057	Blocked	1.150	0.065	0.04	
+21.17855	Unblocked				
+21.67026	Blocked	1.200	0.065	-0.04	
+21.83359	Unblocked				
+22.82984	Blocked	1.250	0.065	0.04	
+22.99333	Unblocked				
+23.47284	Blocked	1.300	0.065	-0.04	
+23.63908	Unblocked				
+24.63664	Blocked	1.350	0.066	0.04	
+24.80272	Unblocked				
+25.27442	Blocked	1.400	0.066	-0.04	
+25.44365	Unblocked				
+26.44206	Blocked	1.450	0.066	0.04	
+26.61053	Unblocked				
+27.07754	Blocked	1.500	0.066	-0.04	
+27.24890	Unblocked				
+28.25001	Blocked	1.550	0.066	0.04	
+28.41927	Unblocked				
+28.88458	Blocked	1.600	0.066	-0.04	
+29.05744	Unblocked				
+30.05945	Blocked	1.650	0.066	0.04	
+30.22908	Unblocked				
+30.69173	Blocked	1.700	0.066	-0.04	
+30.86645	Unblocked				
+31.86923	Blocked	1.750	0.067	0.04	
+32.04118	Unblocked				
+32.49631	Blocked	1.800	0.067	-0.04	
+32.67430	Unblocked				
+33.67781	Blocked	1.850	0.067	0.04	
+33.85320	Unblocked				
+34.29908	Blocked	1.900	0.067	-0.04	
+34.48003	Unblocked				
+35.48415	Blocked	1.950	0.068	0.04	
+35.66246	Unblocked				
+36.10078	Blocked	2.000	0.068	-0.04	
+36.28527	Unblocked				
+37.29049	Blocked	2.050	0.068	0.04	
+37.47105	Unblocked				
+37.90468	Blocked	2.100	0.068	-0.04	
+38.09054	Unblocked				
+39.09759	Blocked	2.150	0.068	0.04	
+39.28043	Unblocked				
+39.71062	Blocked	2.200	0.068	-0.04	
+39.89789	Unblocked				
+40.90619	Blocked	2.250	0.069	0.04	
+41.09100	Unblocked				
+41.51508	Blocked	2.300	0.069	-0.04	
+41.70530	Unblocked				
+42.71500	Blocked	2.350	0.069	0.05	
+42.90307	Unblocked				
+43.31874	Blocked	2.400	0.069	-0.05	
+43.51262	Unblocked				
+44.52324	Blocked	2.450	0.070	0.05	
+44.71463	Unblocked				
+45.12098	Blocked	2.500	0.070	-0.05	
+45.31837	Unblocked				
+46.32981	Blocked	2.550	0.070	0.05	
+46.52469	Unblocked				
+46.92309	Blocked	2.600	0.070	-0.05	
+47.12376	Unblocked				
+48.13644	Blocked	2.650	0.070	0.05	
+48.33313	Unblocked				
+48.72668	Blocked	2.700	0.070	-0.05	
+48.92915	Unblocked				
+49.94374	Blocked	2.750	0.071	0.05	
+50.14372	Unblocked				
+50.53106	Blocked	2.800	0.071	-0.05	
+50.73611	Unblocked				
+51.75238	Blocked	2.850	0.071	0.05	
+51.95581	Unblocked				
+52.34085	Blocked	2.900	0.071	-0.05	
+52.54400	Unblocked				
+53.55808	Blocked	2.950	0.072	0.05	
+53.76256	Unblocked				
+54.13767	Blocked	3.000	0.072	-0.05	
+54.34892	Unblocked				
+55.36684	Blocked	3.050	0.073	0.05	
+55.57547	Unblocked				
+55.93847	Blocked	3.100	0.073	-0.05	
+56.15463	Unblocked				
+57.17378	Blocked	3.150	0.073	0.05	
+57.38793	Unblocked				
+57.74064	Blocked	3.200	0.073	-0.05	
+57.96042	Unblocked				
+58.98071	Blocked	3.250	0.074	0.05	
+59.19679	Unblocked				
+59.54362	Blocked	3.300	0.074	-0.05	
+59.76586	Unblocked				
+60.78739	Blocked	3.350	0.074	0.05	
+61.00734	Unblocked				
+61.34674	Blocked	3.400	0.074	-0.05	
+61.57211	Unblocked				
+62.59499	Blocked	3.450	0.075	0.06	
+62.81784	Unblocked				
+63.14906	Blocked	3.500	0.075	-0.06	
+63.37803	Unblocked				
+64.40270	Blocked	3.550	0.076	0.06	
+64.62791	Unblocked				
+64.94594	Blocked	3.600	0.076	-0.06	
+65.18512	Unblocked				
+66.20773	Blocked	3.650	0.076	0.06	
+66.44123	Unblocked				
+66.75147	Blocked	3.700	0.076	-0.06	
+66.98817	Unblocked				
+68.01603	Blocked	3.750	0.077	0.06	
+68.25114	Unblocked				
+68.55325	Blocked	3.800	0.077	-0.06	
+68.79399	Unblocked				
+69.82273	Blocked	3.850	0.078	0.06	
+70.06338	Unblocked				
+70.35474	Blocked	3.900	0.078	-0.06	
+70.59970	Unblocked				
+71.62929	Blocked	3.950	0.079	0.06	
+71.87338	Unblocked				
+72.15584	Blocked	4.000	0.079	-0.06	
+72.40532	Unblocked				
+73.43634	Blocked	4.050	0.080	0.06	
+73.68466	Unblocked				
+73.95716	Blocked	4.100	0.080	-0.06	
+74.21117	Unblocked				
+75.24333	Blocked	4.150	0.081	0.06	
+75.49649	Unblocked				
+75.75722	Blocked	4.200	0.081	-0.06	
+76.01642	Unblocked				
+77.05009	Blocked	4.250	0.082	0.07	
+77.30918	Unblocked				
+77.55693	Blocked	4.300	0.082	-0.07	
+77.82139	Unblocked				
+78.85611	Blocked	4.350	0.084	0.07	
+79.12096	Unblocked				
+79.34810	Blocked	4.400	3.553	14.03	
+79.35535	Unblocked				
+79.36180	Blocked	4.450	3.611	-5.50	
+79.62738	Unblocked				
+80.66164	Blocked	4.500	0.082	0.07	
+80.94080	Unblocked				
+81.16741	Blocked	4.550	0.082	-0.07	
+81.43262	Unblocked				
+82.47085	Blocked	4.600	0.085	0.07	
+82.74326	Unblocked				
+82.95983	Blocked	4.650	0.085	-0.07	
+83.23632	Unblocked				
+84.27619	Blocked	4.700	0.086	0.07	
+84.55705	Unblocked				
+84.75710	Blocked	4.750	0.086	-0.07	
+85.04239	Unblocked				
+86.08220	Blocked	4.800	0.088	0.08	
+86.37206	Unblocked				
+86.55445	Blocked	4.850	0.088	-0.08	
+86.84764	Unblocked				
+87.88872	Blocked	4.900	0.090	0.08	
+88.18745	Unblocked				
+88.35214	Blocked	4.950	0.090	-0.08	
+88.65243	Unblocked				
+89.69506	Blocked	5.000	0.092	0.08	
+90.00458	Unblocked				
+90.14874	Blocked	5.050	0.092	-0.08	
+90.45714	Unblocked				
+91.50139	Blocked	5.100	0.094	0.08	
+91.81888	Unblocked				
+91.94552	Blocked	5.150	0.094	-0.08	
+92.26217	Unblocked				
+93.30740	Blocked	5.200	0.097	0.09	
+93.64311	Unblocked				
+93.73826	Blocked	5.250	0.097	-0.09	
+94.06678	Unblocked				
+95.11359	Blocked	5.300	0.033	-0.01	
+95.87248	Unblocked				
+96.92024	Blocked	5.350	0.125	0.11	
+97.26121	Unblocked				
+97.26908	Blocked	5.400	2.264	12.16	
+97.28257	Unblocked				
+97.28999	Blocked	5.450	2.512	11.55	
+97.29907	Unblocked				
+97.30906	Blocked	5.500	2.615	-0.70	
+97.32123	Unblocked				
+97.32823	Blocked	5.550	2.705	10.02	
+97.34221	Unblocked				
+97.34613	Blocked	5.600	2.759	-3.95	
+97.67934	Unblocked				
+98.72572	Blocked	5.650	0.107	0.10	
+99.10527	Unblocked				
+99.11727	Blocked	5.700	0.108	-0.10	
+99.48110	Unblocked				
+100.53182	Blocked	5.750	0.032	-0.00	
+101.28416	Unblocked				
+102.33803	Blocked	5.800	0.028	-0.00	
+103.09041	Unblocked				
+104.14479	Blocked	5.850	0.028	0.00	
+104.89524	Unblocked				
+105.95043	Blocked	5.900	0.028	-0.00	
+106.70047	Unblocked				
+107.75691	Blocked	5.950	0.028	0.00	
+108.50486	Unblocked				
+109.56249	Blocked	6.000	0.028	-0.00	
+110.30873	Unblocked				
+111.36877	Blocked	6.050	0.028	0.00	
+112.11319	Unblocked				
+113.17410	Blocked	6.100	0.028	-0.00	
+113.91697	Unblocked				
+114.98006	Blocked	6.150	0.028	0.00	
+115.71932	Unblocked				
+116.78193	Blocked	6.200	0.028	-0.00	
+117.52290	Unblocked				
+118.58947	Blocked	6.250	0.028	0.00	
+119.32807	Unblocked				
+120.39566	Blocked	6.300	0.028	0.00	
+121.13302	Unblocked				
+122.20090	Blocked	6.350	0.028	0.00	
+122.93658	Unblocked				
+124.00513	Blocked	6.400	0.028	-0.00	
+124.74031	Unblocked				
+125.81154	Blocked	6.450	0.028	0.00	
+126.54384	Unblocked				
+127.61740	Blocked	6.500	0.028	0.00	
+128.34807	Unblocked				
+129.42280	Blocked	6.550	0.028	0.00	
+130.15143	Unblocked				
+131.22766	Blocked	6.600	0.028	-0.00	
+131.95420	Unblocked				
+133.03367	Blocked	6.650	0.028	0.00	
+133.75802	Unblocked				
+134.83912	Blocked	6.700	0.028	-0.00	
+135.56174	Unblocked				
+136.64808	Blocked	6.750	0.028	0.00	
+137.36365	Unblocked				
+138.45129	Blocked	6.800	0.028	-0.00	
+139.16795	Unblocked				
+140.25485	Blocked	6.850	0.028	-0.00	
+140.97250	Unblocked				
+142.06027	Blocked	6.900	0.028	0.00	
+142.77609	Unblocked				
+143.86551	Blocked	6.950	0.028	-0.00	
+144.57947	Unblocked				
+145.67102	Blocked	7.000	0.028	0.00	
+146.38307	Unblocked				
+147.47612	Blocked	7.050	0.028	0.00	
+148.18612	Unblocked				
+149.28095	Blocked	7.100	0.028	0.00	
+149.98953	Unblocked				
+151.08574	Blocked	7.150	0.028	-0.00	
+151.79344	Unblocked				
+152.89063	Blocked	7.200	0.028	0.00	
+153.59642	Unblocked				
+154.69551	Blocked	7.250	0.028	0.00	
+155.39799	Unblocked				
+156.50008	Blocked	7.300	0.028	-0.00	
+157.20235	Unblocked				
+158.30566	Blocked	7.350	0.028	0.00	
+159.00561	Unblocked				
+160.11092	Blocked	7.400	0.028	0.00	
+160.80894	Unblocked				
+161.91558	Blocked	7.450	0.028	0.00	
+162.61209	Unblocked				
+163.72018	Blocked	7.500	0.028	-0.00	
+164.41583	Unblocked				
+165.52559	Blocked	7.550	0.028	0.00	
+166.21831	Unblocked				
+167.33047	Blocked	7.600	0.028	-0.00	
+168.02102	Unblocked				
+169.13567	Blocked	7.650	0.028	0.00	
+169.82537	Unblocked				
+170.93995	Blocked	7.700	0.028	-0.00	
+171.62821	Unblocked				
+172.74464	Blocked	7.750	0.028	0.00	
+173.43129	Unblocked				
+174.54923	Blocked	7.800	0.028	-0.00	
+175.23477	Unblocked				
+176.35409	Blocked	7.850	0.028	0.00	
+177.03790	Unblocked				
+178.15873	Blocked	7.900	0.028	-0.00	
+178.84074	Unblocked				
+179.96346	Blocked	7.950	0.028	0.00	
+180.64387	Unblocked				
+181.76793	Blocked	8.000			
+182.44715	Unblocked				
+Vernier Format 2
+untitled.txt 6/15/2026 13:51:4
+Run 6
+Time	Gate State	Distance	Velocity	Acceleration	
+T	G	D	V	A	
+s		m	m/s	m/s^2	
+
+0.00000	Blocked	0.000			
+0.17307	Unblocked				
+1.17167	Blocked	0.050	0.067	0.04	
+1.35062	Unblocked				
+1.79592	Blocked	0.100	0.067	-0.04	
+1.96980	Unblocked				
+2.96861	Blocked	0.150	0.067	0.04	
+3.14177	Unblocked				
+3.59350	Blocked	0.200	0.067	-0.04	
+3.76832	Unblocked				
+4.77325	Blocked	0.250	0.066	0.04	
+4.94953	Unblocked				
+5.40336	Blocked	0.300	0.066	-0.04	
+5.57931	Unblocked				
+6.58493	Blocked	0.350	0.066	0.04	
+6.75958	Unblocked				
+7.21535	Blocked	0.400	0.066	-0.04	
+7.39243	Unblocked				
+8.39776	Blocked	0.450	0.068	0.04	
+8.57522	Unblocked				
+9.01665	Blocked	0.500	0.068	-0.04	
+9.20171	Unblocked				
+10.20979	Blocked	0.550	0.069	0.05	
+10.39713	Unblocked				
+10.81482	Blocked	0.600	0.069	-0.05	
+11.00554	Unblocked				
+12.01358	Blocked	0.650	0.070	0.05	
+12.20412	Unblocked				
+12.61284	Blocked	0.700	0.070	-0.05	
+12.80756	Unblocked				
+13.81571	Blocked	0.750	0.070	0.05	
+14.00732	Unblocked				
+14.41461	Blocked	0.800	0.070	-0.05	
+14.61084	Unblocked				
+15.62267	Blocked	0.850	0.069	0.05	
+15.81441	Unblocked				
+16.22520	Blocked	0.900	0.069	-0.05	
+16.41949	Unblocked				
+17.43163	Blocked	0.950	0.069	0.05	
+17.62243	Unblocked				
+18.03275	Blocked	1.000	0.069	-0.05	
+18.22915	Unblocked				
+19.24204	Blocked	1.050	0.070	0.05	
+19.43706	Unblocked				
+19.83529	Blocked	1.100	0.070	-0.05	
+20.03642	Unblocked				
+21.05093	Blocked	1.150	0.071	0.05	
+21.25175	Unblocked				
+21.63694	Blocked	1.200	0.071	-0.05	
+21.83892	Unblocked				
+22.85522	Blocked	1.250	0.072	0.05	
+23.06024	Unblocked				
+23.43283	Blocked	1.300	0.072	-0.05	
+23.64198	Unblocked				
+24.65946	Blocked	1.350	0.072	0.05	
+24.86585	Unblocked				
+25.23586	Blocked	1.400	0.072	-0.05	
+25.44719	Unblocked				
+26.46531	Blocked	1.450	0.072	0.05	
+26.67327	Unblocked				
+27.04140	Blocked	1.500	0.072	-0.05	
+27.25426	Unblocked				
+28.27378	Blocked	1.550	0.073	0.05	
+28.48439	Unblocked				
+28.84600	Blocked	1.600	0.073	-0.05	
+29.06221	Unblocked				
+30.08269	Blocked	1.650	0.073	0.05	
+30.29831	Unblocked				
+30.65047	Blocked	1.700	0.073	-0.05	
+30.86782	Unblocked				
+31.88814	Blocked	1.750	0.073	0.05	
+32.11521	Unblocked				
+32.45392	Blocked	1.800	0.073	-0.05	
+32.66682	Unblocked				
+33.69311	Blocked	1.850	0.074	0.06	
+33.92537	Unblocked				
+34.24972	Blocked	1.900	0.074	-0.06	
+34.47561	Unblocked				
+35.49773	Blocked	1.950	0.186	0.23	
+35.71006	Unblocked				
+35.73210	Blocked	2.000	0.192	-0.18	
+35.73989	Unblocked				
+36.03478	Blocked	2.050	1.544	9.11	
+36.04755	Unblocked				
+36.06455	Blocked	2.100	1.641	-2.58	
+36.27789	Unblocked				
+37.30447	Blocked	2.150	0.075	0.06	
+37.54026	Unblocked				
+37.85638	Blocked	2.200	0.075	-0.06	
+38.08668	Unblocked				
+39.11295	Blocked	2.250	0.075	0.06	
+39.34592	Unblocked				
+39.66273	Blocked	2.300	0.075	-0.06	
+39.89341	Unblocked				
+40.92090	Blocked	2.350	0.077	0.06	
+41.15706	Unblocked				
+41.45860	Blocked	2.400	0.077	-0.06	
+41.70021	Unblocked				
+42.72769	Blocked	2.450	0.078	0.06	
+42.96968	Unblocked				
+43.25714	Blocked	2.500	0.078	-0.06	
+43.50468	Unblocked				
+44.53488	Blocked	2.550	0.079	0.06	
+44.78340	Unblocked				
+45.05849	Blocked	2.600	0.079	-0.06	
+45.30990	Unblocked				
+46.33940	Blocked	2.650	0.080	0.06	
+46.59091	Unblocked				
+46.85742	Blocked	2.700	0.080	-0.06	
+47.11384	Unblocked				
+48.14319	Blocked	2.750	0.079	0.06	
+48.39444	Unblocked				
+48.66535	Blocked	2.800	0.079	-0.06	
+48.91882	Unblocked				
+49.95023	Blocked	2.850	0.158	0.19	
+50.20661	Unblocked				
+50.22338	Blocked	2.900	0.200	0.12	
+50.22749	Unblocked				
+50.45650	Blocked	2.950	5.314	43.75	
+50.46135	Unblocked				
+50.46557	Blocked	3.000	5.474	-8.43	
+50.71764	Unblocked				
+51.75438	Blocked	3.050	0.081	0.07	
+52.02839	Unblocked				
+52.26345	Blocked	3.100	0.081	-0.07	
+52.52822	Unblocked				
+53.56473	Blocked	3.150	0.083	0.07	
+53.83739	Unblocked				
+54.06331	Blocked	3.200	0.083	-0.07	
+54.33508	Unblocked				
+55.37135	Blocked	3.250	0.085	0.07	
+55.64760	Unblocked				
+55.85932	Blocked	3.300	0.085	-0.07	
+56.13966	Unblocked				
+57.17645	Blocked	3.350	0.086	0.07	
+57.45959	Unblocked				
+57.65781	Blocked	3.400	0.086	-0.07	
+57.94382	Unblocked				
+58.98259	Blocked	3.450	0.088	0.08	
+59.27198	Unblocked				
+59.45659	Blocked	3.500	0.088	-0.08	
+59.74894	Unblocked				
+60.78874	Blocked	3.550	0.089	0.08	
+61.08574	Unblocked				
+61.25451	Blocked	3.600	0.089	-0.08	
+61.55409	Unblocked				
+62.59568	Blocked	3.650	0.092	0.08	
+62.90411	Unblocked				
+63.04920	Blocked	3.700	0.092	-0.08	
+63.35950	Unblocked				
+64.40131	Blocked	3.750	0.094	0.09	
+64.72366	Unblocked				
+64.84271	Blocked	3.800	0.095	-0.08	
+65.16337	Unblocked				
+66.20727	Blocked	3.850	0.099	0.09	
+66.55376	Unblocked				
+66.63098	Blocked	3.900	0.099	-0.09	
+66.96811	Unblocked				
+68.01302	Blocked	3.950	0.033	-0.01	
+68.77111	Unblocked				
+69.81527	Blocked	4.000	0.028	-0.00	
+70.57734	Unblocked				
+71.62391	Blocked	4.050	0.028	0.00	
+72.38114	Unblocked				
+73.43091	Blocked	4.100	0.028	0.00	
+74.18578	Unblocked				
+75.23681	Blocked	4.150	0.028	-0.00	
+75.98963	Unblocked				
+77.04274	Blocked	4.200	0.028	0.00	
+77.79357	Unblocked				
+78.84772	Blocked	4.250			
+79.59858	Unblocked				
