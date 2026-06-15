@@ -1,5 +1,5 @@
 /*
-    Title           :
+    Title           :   SCDetectorConstruction.hh
     Author          :   Tristan Allison
     Date Created    :   June 8, 2026
     Date Edited     :   June 9, 2026
@@ -40,10 +40,10 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
         virtual G4VPhysicalVolume *Construct();
 
     private:
-        G4LogicalVolume *logicDetector, *logicWorld, *logicColumn, *logicSource;
-        G4VPhysicalVolume *physDetector, *physWorld, *physColumn, *physSource;
+        G4LogicalVolume *logicDetector, *logicWorld, *logicColumn, *logicSource, *logicCollimator;
+        G4VPhysicalVolume *physDetector, *physWorld, *physColumn, *physSource, *physCollimator;
         G4Box *solidWorld, *solidDetector;
-        G4Tubs *solidColumn;
+        G4Tubs *solidColumn, *solidCollimator;
         G4Sphere *solidSource;
         G4NistManager *nist;
 
@@ -54,6 +54,7 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
         void ConstructScintillator();
         void ConstructDetector();
         void ConstructSource();
+        void ConstructCollimator();
 };
 
 

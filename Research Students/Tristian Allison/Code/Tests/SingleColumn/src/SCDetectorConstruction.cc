@@ -49,7 +49,7 @@ void SCDetectorConstruction::ConstructScintillator()
     G4MaterialPropertiesTable *mptColumn = new G4MaterialPropertiesTable();
     mptColumn->AddProperty("RINDEX", energy, rindexCsI, size);
     mptColumn->AddProperty("SCINTILLATIONCOMPONENT1", energy, fraction, size, true);
-    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 0.1/keV); // fix this for real runs at 52/keV
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 0.01/keV); // fix this for real runs at 52/keV
     mptColumn->AddConstProperty("RESOLUTIONSCALE", 1.);
     mptColumn->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1080. * ns);
     mptColumn->AddConstProperty("SCINTILLATIONYIELD1", 1.);
@@ -66,7 +66,22 @@ void SCDetectorConstruction::ConstructScintillator()
 
     ///* for making array of columns
     G4int length = 25, width = 25;
+    G4double scintillatorRadius = 0.55 * mm;
     G4double pitch = 10.*um;
+
+    /*
+    for (int i = -scintillatorRadius/pitch; i < scintillatorRadius/pitch; i++) 
+    {
+        G4double x = i * pitch;
+        for (int j = -scintillatorRadius/pitch; j < scintillatorRadius/pitch; j++)
+        {
+            G4double y = j * pitch;
+
+            if (sqrt(pow(x,2.)+pow(y,2.)) <= scintillatorRadius) // if within circle
+                new G4PVPlacement(nullptr, G4ThreeVector(x, y, 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);    
+        }
+    }
+    */
 
     for (int i = -width; i < width; i++) 
     {
@@ -97,7 +112,7 @@ void SCDetectorConstruction::ConstructDetector()
 
     solidDetector = new G4Box("solidDetector", 0.5 * xDet, 0.5 * yDet, 0.5 * zDet);
     logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
-    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 250. * um), logicDetector, "physDetector", logicWorld, false, 0, checkOverlaps);
+    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 1.3 * mm), logicDetector, "physDetector", logicWorld, false, 0, checkOverlaps);
 
     G4VisAttributes *detVisAtt = new G4VisAttributes(G4Color(1.0, 1.0, 0.0, 0.3));
     detVisAtt->SetForceSolid(true);
@@ -118,11 +133,31 @@ void SCDetectorConstruction::ConstructSource()
 
     solidSource = new G4Sphere("solidSource", 0., sourceRadius, 0.0, 360. * deg, 0.0, 180. * deg);
     logicSource = new G4LogicalVolume(solidSource, matC14, "logicSource");
-    physSource = new G4PVPlacement(0, G4ThreeVector(0., 0., -100. * um), logicSource, "physSource", logicWorld, 0, checkOverlaps);
+    physSource = new G4PVPlacement(0, G4ThreeVector(0., 0., -1000. * um), logicSource, "physSource", logicWorld, 0, checkOverlaps);
     
     G4VisAttributes *sourceVisAtt =  new G4VisAttributes(G4Color(0.0, 0.0, 1.0, 0.5));
     sourceVisAtt->SetForceSolid(true);
     logicSource->SetVisAttributes(sourceVisAtt);
+}
+
+void SCDetectorConstruction::ConstructCollimator()
+{
+    // Material
+    G4Material *collimatorMat = nist->FindOrBuildMaterial("G4_Cu");
+
+    // Collimator
+    G4double innerRadius = 0.5 * mm;
+    G4double outerRadius = 1.5 * mm;
+    G4double height = 1. * mm;
+
+    solidCollimator = new G4Tubs("solidCollimator", innerRadius, outerRadius, 0.5 * height, 0.0, 360. * deg);
+    logicCollimator = new G4LogicalVolume(solidCollimator, collimatorMat, "logicCollimator");
+    physCollimator = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., 527.5*um), logicCollimator, "physCollimator", logicWorld, false, 0, checkOverlaps);
+
+    G4VisAttributes *collimatorVisAtt = new G4VisAttributes(G4Color(0.722, 0.451, 0.2, 0.5));
+    collimatorVisAtt->SetForceSolid(true);
+    logicCollimator->SetVisAttributes(collimatorVisAtt);
+
 }
 
 G4VPhysicalVolume *SCDetectorConstruction::Construct()
@@ -140,9 +175,9 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
     worldMat->SetMaterialPropertiesTable(mptWorld);
 
     // world
-    G4double xWorld = 1. * mm;
-    G4double yWorld = 1. * mm;
-    G4double zWorld = 1. * mm;
+    G4double xWorld = 5. * mm;
+    G4double yWorld = 5. * mm;
+    G4double zWorld = 5. * mm;
 
     solidWorld = new G4Box("solidWorld", 0.5 * xWorld, 0.5 * yWorld, 0.5 * zWorld);
     logicWorld = new G4LogicalVolume(solidWorld, worldMat, "logicalWorld");
@@ -153,6 +188,8 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
     ConstructDetector();
 
     //ConstructSource();
+    
+    //ConstructCollimator();
 
     return physWorld;
 
