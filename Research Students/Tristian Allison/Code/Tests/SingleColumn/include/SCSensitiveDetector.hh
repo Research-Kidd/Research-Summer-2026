@@ -16,6 +16,9 @@
 #include "G4UnitsTable.hh"
 #include "G4PhysicalConstants.hh"
 
+#include "G4OpticalPhoton.hh"
+#include "G4Electron.hh"
+
 class SCSensitiveDetector : public G4VSensitiveDetector
 {
     public:

@@ -62,9 +62,9 @@ void SCDetectorConstruction::ConstructScintillator()
 
     solidColumn = new G4Tubs("solidColumn", 0., columnRadius, 0.5 * columnHeight, 0.0, 360. * deg);
     logicColumn = new G4LogicalVolume(solidColumn, columnMat, "logicColumn");
-    physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
+    //physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
 
-    /* for making array of columns
+    ///* for making array of columns
     G4int length = 25, width = 25;
     G4double pitch = 10.*um;
 
@@ -77,7 +77,7 @@ void SCDetectorConstruction::ConstructScintillator()
             new G4PVPlacement(nullptr, G4ThreeVector(x, y, 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
         }
     }
-    */
+    //*/
 
     G4VisAttributes *columnVisAtt = new G4VisAttributes(G4Color(1.0, 0.0, 1.0, 0.5));
     columnVisAtt->SetForceSolid(true);
@@ -164,4 +164,9 @@ void SCDetectorConstruction::ConstructSDandField()
     SCSensitiveDetector *sensDet = new SCSensitiveDetector("SensitiveDetector");
     logicDetector->SetSensitiveDetector(sensDet);
     G4SDManager::GetSDMpointer()->AddNewDetector(sensDet);
+
+    // Photon Detector
+    SCSensitiveDetector *sensColumn = new SCSensitiveDetector("SensitiveColumn");
+    logicColumn->SetSensitiveDetector(sensColumn);
+    G4SDManager::GetSDMpointer()->AddNewDetector(sensColumn);
 }
