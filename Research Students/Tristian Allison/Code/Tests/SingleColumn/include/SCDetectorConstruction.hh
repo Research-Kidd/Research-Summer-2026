@@ -19,6 +19,8 @@
 #include "G4VPhysicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4Material.hh"
+#include "G4OpticalSurface.hh"
+#include "G4LogicalSkinSurface.hh"
 
 #include "G4NistManager.hh"
 #include "G4SystemOfUnits.hh"

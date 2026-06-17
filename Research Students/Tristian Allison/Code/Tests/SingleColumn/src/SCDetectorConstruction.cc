@@ -2,7 +2,7 @@
     Title           :   SCDetectorConstruction.cc
     Author          :   Tristan Allison
     Date Created    :   June 8, 2026
-    Date Edited     :   June 10, 2026
+    Date Edited     :   June 16, 2026
     Purpose         :
 */
 #include "SCDetectorConstruction.hh"
@@ -49,7 +49,7 @@ void SCDetectorConstruction::ConstructScintillator()
     G4MaterialPropertiesTable *mptColumn = new G4MaterialPropertiesTable();
     mptColumn->AddProperty("RINDEX", energy, rindexCsI, size);
     mptColumn->AddProperty("SCINTILLATIONCOMPONENT1", energy, fraction, size, true);
-    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 0.01/keV); // fix this for real runs at 52/keV
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 1./keV); // fix this for real runs at 52/keV
     mptColumn->AddConstProperty("RESOLUTIONSCALE", 1.);
     mptColumn->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1080. * ns);
     mptColumn->AddConstProperty("SCINTILLATIONYIELD1", 1.);
@@ -62,14 +62,12 @@ void SCDetectorConstruction::ConstructScintillator()
 
     solidColumn = new G4Tubs("solidColumn", 0., columnRadius, 0.5 * columnHeight, 0.0, 360. * deg);
     logicColumn = new G4LogicalVolume(solidColumn, columnMat, "logicColumn");
-    //physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
+    //physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., -50. * um), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
 
-    ///* for making array of columns
-    G4int length = 25, width = 25;
-    G4double scintillatorRadius = 0.55 * mm;
+    // for making array of columns
+    G4double scintillatorRadius = 0.55*mm;
     G4double pitch = 10.*um;
-
-    /*
+    
     for (int i = -scintillatorRadius/pitch; i < scintillatorRadius/pitch; i++) 
     {
         G4double x = i * pitch;
@@ -81,19 +79,7 @@ void SCDetectorConstruction::ConstructScintillator()
                 new G4PVPlacement(nullptr, G4ThreeVector(x, y, 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);    
         }
     }
-    */
-
-    for (int i = -width; i < width; i++) 
-    {
-        G4double x = i * pitch;
-        for (int j = -length; j < length; j++)
-        {
-            G4double y = j * pitch;
-            new G4PVPlacement(nullptr, G4ThreeVector(x, y, 0.), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
-        }
-    }
-    //*/
-
+    
     G4VisAttributes *columnVisAtt = new G4VisAttributes(G4Color(1.0, 0.0, 1.0, 0.5));
     columnVisAtt->SetForceSolid(true);
     logicColumn->SetVisAttributes(columnVisAtt);
@@ -106,8 +92,8 @@ void SCDetectorConstruction::ConstructDetector()
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
     // -------------------------------------------
 
-    G4double xDet = 500. * um;
-    G4double yDet = 500. * um;
+    G4double xDet = 1300. * um;
+    G4double yDet = 1300. * um;
     G4double zDet = 50. * um;
 
     solidDetector = new G4Box("solidDetector", 0.5 * xDet, 0.5 * yDet, 0.5 * zDet);
@@ -145,10 +131,23 @@ void SCDetectorConstruction::ConstructCollimator()
     // Material
     G4Material *collimatorMat = nist->FindOrBuildMaterial("G4_Cu");
 
+    G4OpticalSurface *collimatorSurface = new G4OpticalSurface("collimatorSurface");
+    collimatorSurface->SetType(dielectric_metal);
+    collimatorSurface->SetFinish(ground);
+    collimatorSurface->SetModel(unified);
+
+    G4MaterialPropertiesTable *mptCollimator = new G4MaterialPropertiesTable();
+    G4double reflEnergy[2] = {1.0*eV, 6.0*eV};
+    G4double reflectivity[2] = {0.0, 0.0}; // fully absorbing
+    mptCollimator->AddProperty("REFLECTIVITY", reflEnergy, reflectivity, 2);
+    collimatorSurface->SetMaterialPropertiesTable(mptCollimator);   
+
+    new G4LogicalSkinSurface("collimatorSkin", logicCollimator, collimatorSurface);
+
     // Collimator
     G4double innerRadius = 0.5 * mm;
-    G4double outerRadius = 1.5 * mm;
-    G4double height = 1. * mm;
+    G4double outerRadius = 2. * mm;
+    G4double height = 1.0 * mm;
 
     solidCollimator = new G4Tubs("solidCollimator", innerRadius, outerRadius, 0.5 * height, 0.0, 360. * deg);
     logicCollimator = new G4LogicalVolume(solidCollimator, collimatorMat, "logicCollimator");
@@ -189,7 +188,7 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
 
     //ConstructSource();
     
-    //ConstructCollimator();
+    ConstructCollimator();
 
     return physWorld;
 
