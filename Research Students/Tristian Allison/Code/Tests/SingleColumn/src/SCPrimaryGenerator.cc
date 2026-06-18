@@ -1,8 +1,8 @@
 /*
-    Title           :
+    Title           :   SCPrimaryGenerator.cc
     Author          :   Tristan Allison
     Date Created    :   June 8, 2026
-    Date Edited     :   June 9, 2026
+    Date Edited     :   June 16, 2026
     Purpose         :   Create a particle gun aimed at SC, shoots beta decay electrons 
 */
 #include "SCPrimaryGenerator.hh"
@@ -21,7 +21,7 @@ SCPrimaryGenerator::SCPrimaryGenerator()
     //Particle direction
     G4double px = 0.;
     G4double py = 0.;
-    G4double pz = 1.;
+    G4double pz = 0.;
 
     G4ThreeVector mom(px, py, pz);
 
@@ -42,13 +42,13 @@ void SCPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
     G4int A = 14;
 
     // learn more about this stuff to get more correct data
-    G4double charge = 6. * eplus; // 
-    G4double energy = 1 * eV; //
+    G4double charge = 0. * eplus; // 
+    G4double energy = 1. * eV; //
 
     G4ParticleDefinition *ion = G4IonTable::GetIonTable()->GetIon(Z, A, energy);
     fParticleGun->SetParticleDefinition(ion);
     fParticleGun->SetParticleCharge(charge);
-    fParticleGun->SetParticleEnergy(energy);
+    //fParticleGun->SetParticleEnergy(energy);
 
     // Create Vertex
     fParticleGun->GeneratePrimaryVertex(anEvent);

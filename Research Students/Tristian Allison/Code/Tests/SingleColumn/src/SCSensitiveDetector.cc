@@ -1,8 +1,8 @@
 /*
-    Title           :
+    Title           :   SCSensitiveDetector.cc
     Author          :   Tristan Allison
     Date Created    :   June 8, 2026
-    Date Edited     :   June 9, 2026
+    Date Edited     :   June 16, 2026
     Purpose         :
 */
 #include "SCSensitiveDetector.hh"
@@ -37,7 +37,9 @@ G4bool SCSensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touch
 
     G4String volumeName = preStepPoint->GetTouchableHandle()->GetVolume()->GetLogicalVolume()->GetName(); // Get Volume Name
     G4String particleName = track->GetDefinition()->GetParticleName();
-
+    
+    G4double fGlobalTime = preStepPoint->GetGlobalTime();
+    G4ThreeVector posPhoton = preStepPoint->GetPosition();
 
     if (volumeName == "logicDetector" && particleName == "opticalphoton")
     {
@@ -47,17 +49,17 @@ G4bool SCSensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touch
 
         analysisManager->FillH1(0, fWlen);
 
-        G4cout << "Photon wavelength hitting detector: " << energy << " nm" << G4endl; // for verbosity
-    }
-    else if (volumeName == "logicColumn" && particleName == "e-")
-    {
-        // if an electron hits scintillator enter histogram info
-        G4double energy = preStepPoint->GetKineticEnergy()/keV;
-        analysisManager->FillH1(1, energy);
-
+        analysisManager->FillNtupleIColumn(0, 0, eventID);
+        analysisManager->FillNtupleDColumn(0, 1, posPhoton[0]);
+        analysisManager->FillNtupleDColumn(0, 2, posPhoton[1]);
+        analysisManager->FillNtupleDColumn(0, 3, posPhoton[2]);
+        analysisManager->FillNtupleDColumn(0, 4, fGlobalTime);
+        analysisManager->AddNtupleRow(0);
+        
         track->SetTrackStatus(fStopAndKill);
 
-        G4cout << "Electron energy hitting scintillator: " << energy << " keV" << G4endl; // for verbosity
-    } 
+        G4cout << "Photon wavelength hitting detector: " << energy << " nm" << G4endl; // for verbosity
+    }
+    
     return true;
 }

@@ -10,9 +10,17 @@
 SCRunAction::SCRunAction()
 {
     G4AnalysisManager *analysisManager = G4AnalysisManager::Instance();
+    analysisManager->SetNtupleMerging(true);
 
     analysisManager->CreateH1("fWlen", "Photon Wavelengths (nm)", 100, 200., 900.); // nm
-    analysisManager->CreateH1("eEnterEnergy", "Electron energy entering scintillator (keV)", 100, 0., 160.); // keV
+    
+    analysisManager->CreateNtuple("Photons", "Photons");
+    analysisManager->CreateNtupleIColumn("iEvent");
+    analysisManager->CreateNtupleDColumn("fX");
+    analysisManager->CreateNtupleDColumn("fY");
+    analysisManager->CreateNtupleDColumn("fZ");
+    analysisManager->CreateNtupleDColumn("fGlobalTime");
+    analysisManager->FinishNtuple();
 }
 
 SCRunAction::~SCRunAction()

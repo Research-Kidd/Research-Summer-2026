@@ -49,7 +49,7 @@ void SCDetectorConstruction::ConstructScintillator()
     G4MaterialPropertiesTable *mptColumn = new G4MaterialPropertiesTable();
     mptColumn->AddProperty("RINDEX", energy, rindexCsI, size);
     mptColumn->AddProperty("SCINTILLATIONCOMPONENT1", energy, fraction, size, true);
-    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 1./keV); // fix this for real runs at 52/keV
+    mptColumn->AddConstProperty("SCINTILLATIONYIELD", 52./keV); // fix this for real runs at 52/keV
     mptColumn->AddConstProperty("RESOLUTIONSCALE", 1.);
     mptColumn->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1080. * ns);
     mptColumn->AddConstProperty("SCINTILLATIONYIELD1", 1.);
