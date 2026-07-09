@@ -14,7 +14,7 @@ SCPrimaryGenerator::SCPrimaryGenerator()
     // Particle  position
     G4double x = 0. * um;
     G4double y = 0. * um;
-    G4double z = -100. * um;
+    G4double z = -522.5 * um;
 
     G4ThreeVector pos(x, y, z);
 

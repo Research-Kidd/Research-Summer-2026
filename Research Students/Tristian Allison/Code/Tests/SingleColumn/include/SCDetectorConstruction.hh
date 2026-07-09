@@ -44,8 +44,8 @@ class SCDetectorConstruction : public G4VUserDetectorConstruction
     private:
         G4LogicalVolume *logicDetector, *logicWorld, *logicColumn, *logicSource, *logicCollimator;
         G4VPhysicalVolume *physDetector, *physWorld, *physColumn, *physSource, *physCollimator;
-        G4Box *solidWorld, *solidDetector;
-        G4Tubs *solidColumn, *solidCollimator;
+        G4Box *solidWorld;
+        G4Tubs *solidColumn, *solidCollimator, *solidDetector;;
         G4Sphere *solidSource;
         G4NistManager *nist;
 

@@ -65,7 +65,7 @@ void SCDetectorConstruction::ConstructScintillator()
     //physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., -50. * um), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
 
     // for making array of columns
-    G4double scintillatorRadius = 0.55*mm;
+    G4double scintillatorRadius = 1.*mm;
     G4double pitch = 10.*um;
     
     for (int i = -scintillatorRadius/pitch; i < scintillatorRadius/pitch; i++) 
@@ -92,38 +92,16 @@ void SCDetectorConstruction::ConstructDetector()
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
     // -------------------------------------------
 
-    G4double xDet = 1300. * um;
-    G4double yDet = 1300. * um;
-    G4double zDet = 50. * um;
+    G4double detectorHeight = 1. * mm;
+    G4double detectorRadius = 1.25 * mm;
 
-    solidDetector = new G4Box("solidDetector", 0.5 * xDet, 0.5 * yDet, 0.5 * zDet);
+    solidDetector = new G4Tubs("solidColumn", 0., detectorRadius, 0.5 * detectorHeight, 0.0, 360. * deg);
     logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
-    physDetector = new G4PVPlacement(0, G4ThreeVector(0., 0., 1.3 * mm), logicDetector, "physDetector", logicWorld, false, 0, checkOverlaps);
+    physDetector = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., 2. * mm), logicDetector, "physDetector", logicWorld, false, 0, checkOverlaps);
 
-    G4VisAttributes *detVisAtt = new G4VisAttributes(G4Color(1.0, 1.0, 0.0, 0.3));
+    G4VisAttributes *detVisAtt = new G4VisAttributes(G4Color(0.0, 1.0, 1.0, 0.3));
     detVisAtt->SetForceSolid(true);
     logicDetector->SetVisAttributes(detVisAtt);
-}
-
-void SCDetectorConstruction::ConstructSource()
-{
-    // Define Carbon-14
-    G4Isotope *C14 = new G4Isotope("C14", 6, 14, 14.003242 * g / mole);
-    G4Element *elC14 = new G4Element("Carbon-14", "C14", 1);
-    elC14->AddIsotope(C14, 100 * perCent);
-    G4Material *matC14 = new G4Material("C14Source", 1.51 * g / cm3, 1);
-    matC14->AddElement(elC14, 100 * perCent);
-
-    // Carbon 14 Source
-    G4double sourceRadius = 50.*um;
-
-    solidSource = new G4Sphere("solidSource", 0., sourceRadius, 0.0, 360. * deg, 0.0, 180. * deg);
-    logicSource = new G4LogicalVolume(solidSource, matC14, "logicSource");
-    physSource = new G4PVPlacement(0, G4ThreeVector(0., 0., -1000. * um), logicSource, "physSource", logicWorld, 0, checkOverlaps);
-    
-    G4VisAttributes *sourceVisAtt =  new G4VisAttributes(G4Color(0.0, 0.0, 1.0, 0.5));
-    sourceVisAtt->SetForceSolid(true);
-    logicSource->SetVisAttributes(sourceVisAtt);
 }
 
 void SCDetectorConstruction::ConstructCollimator()
@@ -174,9 +152,9 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
     worldMat->SetMaterialPropertiesTable(mptWorld);
 
     // world
-    G4double xWorld = 5. * mm;
-    G4double yWorld = 5. * mm;
-    G4double zWorld = 5. * mm;
+    G4double xWorld = 10. * mm;
+    G4double yWorld = 10. * mm;
+    G4double zWorld = 10. * mm;
 
     solidWorld = new G4Box("solidWorld", 0.5 * xWorld, 0.5 * yWorld, 0.5 * zWorld);
     logicWorld = new G4LogicalVolume(solidWorld, worldMat, "logicalWorld");
@@ -185,10 +163,8 @@ G4VPhysicalVolume *SCDetectorConstruction::Construct()
     ConstructScintillator();
 
     ConstructDetector();
-
-    //ConstructSource();
     
-    ConstructCollimator();
+    //ConstructCollimator();
 
     return physWorld;
 

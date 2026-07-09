@@ -16,9 +16,13 @@ SCRunAction::SCRunAction()
     
     analysisManager->CreateNtuple("Photons", "Photons");
     analysisManager->CreateNtupleIColumn("iEvent");
-    analysisManager->CreateNtupleDColumn("fX");
-    analysisManager->CreateNtupleDColumn("fY");
-    analysisManager->CreateNtupleDColumn("fZ");
+    analysisManager->CreateNtupleDColumn("x");
+    analysisManager->CreateNtupleDColumn("y");
+    analysisManager->CreateNtupleDColumn("z");
+    analysisManager->CreateNtupleDColumn("dx");
+    analysisManager->CreateNtupleDColumn("dy");
+    analysisManager->CreateNtupleDColumn("dz");
+    analysisManager->CreateNtupleDColumn("energy");
     analysisManager->CreateNtupleDColumn("fGlobalTime");
     analysisManager->FinishNtuple();
 }

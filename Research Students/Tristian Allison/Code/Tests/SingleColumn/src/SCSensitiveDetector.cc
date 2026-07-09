@@ -39,13 +39,16 @@ G4bool SCSensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touch
     G4String particleName = track->GetDefinition()->GetParticleName();
     
     G4double fGlobalTime = preStepPoint->GetGlobalTime();
-    G4ThreeVector posPhoton = preStepPoint->GetPosition();
+    
 
     if (volumeName == "logicDetector" && particleName == "opticalphoton")
     {
-        // if a photon hits detector enter histogram info
+        // if a photon hits detector enter data
         G4double energy = preStepPoint->GetKineticEnergy();
         G4double fWlen = ((h_Planck * c_light) / energy) / nm;
+
+        G4ThreeVector posPhoton = preStepPoint->GetPosition();
+        G4ThreeVector momPhoton = preStepPoint->GetMomentumDirection();
 
         analysisManager->FillH1(0, fWlen);
 
@@ -53,12 +56,16 @@ G4bool SCSensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touch
         analysisManager->FillNtupleDColumn(0, 1, posPhoton[0]);
         analysisManager->FillNtupleDColumn(0, 2, posPhoton[1]);
         analysisManager->FillNtupleDColumn(0, 3, posPhoton[2]);
-        analysisManager->FillNtupleDColumn(0, 4, fGlobalTime);
+        analysisManager->FillNtupleDColumn(0, 4, momPhoton[0]);
+        analysisManager->FillNtupleDColumn(0, 5, momPhoton[1]);
+        analysisManager->FillNtupleDColumn(0, 6, momPhoton[2]);
+        analysisManager->FillNtupleDColumn(0, 7, energy);
+        analysisManager->FillNtupleDColumn(0, 8, fGlobalTime);
         analysisManager->AddNtupleRow(0);
         
         track->SetTrackStatus(fStopAndKill);
 
-        G4cout << "Photon wavelength hitting detector: " << energy << " nm" << G4endl; // for verbosity
+        //G4cout << "Photon wavelength hitting detector: " << energy << " nm" << G4endl; // for verbosity
     }
     
     return true;
