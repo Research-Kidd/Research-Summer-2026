@@ -65,7 +65,7 @@ void SCDetectorConstruction::ConstructScintillator()
     //physColumn = new G4PVPlacement(nullptr, G4ThreeVector(0., 0., -50. * um), logicColumn, "physColumn", logicWorld, false, 0, checkOverlaps);
 
     // for making array of columns
-    G4double scintillatorRadius = 1.*mm;
+    G4double scintillatorRadius = 4.5*mm;
     G4double pitch = 10.*um;
     
     for (int i = -scintillatorRadius/pitch; i < scintillatorRadius/pitch; i++) 
