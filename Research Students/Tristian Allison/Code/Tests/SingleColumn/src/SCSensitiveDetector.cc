@@ -69,6 +69,8 @@ G4bool SCSensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touch
 
         //G4cout << "Event " << eventID << ": Photon w/ wavelength " << fWlen << "nm" << G4endl;
     }
+
+    if (volumeName == "")
     
     return true;
 }

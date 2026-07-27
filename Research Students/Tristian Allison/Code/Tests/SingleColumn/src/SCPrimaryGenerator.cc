@@ -38,8 +38,8 @@ SCPrimaryGenerator::~SCPrimaryGenerator()
 void SCPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {
     // Particle type
-    G4int Z = 6;
-    G4int A = 14;
+    G4int Z = 95;
+    G4int A = 241;
 
     // learn more about this stuff to get more correct data
     G4double charge = 0. * eplus; // 
